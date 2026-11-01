@@ -1,0 +1,2898 @@
+{
+  "ascii_string_count": 2398,
+  "utf16le_string_count": 78,
+  "osd_0003_string_count": 9040,
+  "category_counts": {
+    "source_files": 0,
+    "model_and_version": 17,
+    "rtos_and_tasks": 0,
+    "camera_isp_lens_af": 29,
+    "filesystem_sd_usb_ptp": 26,
+    "video_audio_hdmi": 7,
+    "service_debug_errors": 59
+  },
+  "categories": {
+    "source_files": [],
+    "model_and_version": [
+      {
+        "offset": "0x013f00",
+        "string": "Panasonic"
+      },
+      {
+        "offset": "0x013f10",
+        "string": "DMC-TZ5"
+      },
+      {
+        "offset": "0x013f30",
+        "string": "TZ5__"
+      },
+      {
+        "offset": "0x013f38",
+        "string": "LUMIX"
+      },
+      {
+        "offset": "0x036608",
+        "string": "dpsVersions"
+      },
+      {
+        "offset": "0x03661f",
+        "string": "vendorSpecificVersion"
+      },
+      {
+        "offset": "0x036f9a",
+        "string": "<dpsVersions>"
+      },
+      {
+        "offset": "0x0384af",
+        "string": "Copyright (c) 2000-2007 by FotoNation. All rights reserved."
+      },
+      {
+        "offset": "0x1e3c33",
+        "string": "U\\TZ5.AHX"
+      },
+      {
+        "offset": "0x1e3c3d",
+        "string": "\\TZ5E.AHX"
+      },
+      {
+        "offset": "0x1f447f",
+        "string": "UPanasonic"
+      },
+      {
+        "offset": "0x1f4499",
+        "string": "MATSUSHITA"
+      },
+      {
+        "offset": "0x1f57a1",
+        "string": "LUMIX Ver.01.00"
+      },
+      {
+        "offset": "0x1f6cea",
+        "string": "Ver.1.0  "
+      },
+      {
+        "offset": "0x1f7098",
+        "string": "VER.BIN"
+      },
+      {
+        "offset": "0x1f7208",
+        "string": "LUMIX "
+      },
+      {
+        "offset": "0x1f734a",
+        "string": "\"Panasonic\""
+      }
+    ],
+    "rtos_and_tasks": [],
+    "camera_isp_lens_af": [
+      {
+        "offset": "0x1eef57",
+        "string": "OIS ADJ"
+      },
+      {
+        "offset": "0x1f37e8",
+        "string": "FOCUS FREE ERROR"
+      },
+      {
+        "offset": "0x1f37f9",
+        "string": "ZOOM FREE ERROR"
+      },
+      {
+        "offset": "0x1f3809",
+        "string": "FOCUS ERROR AT W"
+      },
+      {
+        "offset": "0x1f381a",
+        "string": "DEFOCUS1 ERROR"
+      },
+      {
+        "offset": "0x1f3829",
+        "string": "DEFOCUS2 ERROR"
+      },
+      {
+        "offset": "0x1f3838",
+        "string": "FOCUS ERROR AT T"
+      },
+      {
+        "offset": "0x1f3892",
+        "string": "OIS ERROR"
+      },
+      {
+        "offset": "0x1f3938",
+        "string": "IRIS POS1 NG"
+      },
+      {
+        "offset": "0x1f3945",
+        "string": "IRIS POS2 NG"
+      },
+      {
+        "offset": "0x1f3952",
+        "string": "IRIS POS3 NG"
+      },
+      {
+        "offset": "0x1f395f",
+        "string": "IRIS POS4 NG"
+      },
+      {
+        "offset": "0x1f396c",
+        "string": "IRIS POS5 NG"
+      },
+      {
+        "offset": "0x1f3afc",
+        "string": "AGC GAIN OVER"
+      },
+      {
+        "offset": "0x1f3d00",
+        "string": "CCD LINEARITY ERROR"
+      },
+      {
+        "offset": "0x1f3d20",
+        "string": "1ST FLASH UNDER"
+      },
+      {
+        "offset": "0x1f3d30",
+        "string": "1ST FLASH OVER"
+      },
+      {
+        "offset": "0x1f3d3f",
+        "string": "2ND FLASH UNDER"
+      },
+      {
+        "offset": "0x1f3d4f",
+        "string": "2ND FLASH OVER"
+      },
+      {
+        "offset": "0x1f3d5e",
+        "string": "3RD FLASH UNDER"
+      },
+      {
+        "offset": "0x1f3d6e",
+        "string": "3RD FLASH OVER"
+      },
+      {
+        "offset": "0x1f3d7d",
+        "string": "IMPOSSIBLE FLASH"
+      },
+      {
+        "offset": "0x1f3d8e",
+        "string": "IMPOSSIBLE PRE FLASH"
+      },
+      {
+        "offset": "0x1f3da3",
+        "string": "PRE FLASH UNDER"
+      },
+      {
+        "offset": "0x1f3db3",
+        "string": "PRE FLASH OVER"
+      },
+      {
+        "offset": "0x1f3f08",
+        "string": "CCD THERMO HI"
+      },
+      {
+        "offset": "0x1f3f16",
+        "string": "CCD THERMO LOW"
+      },
+      {
+        "offset": "0x1f4271",
+        "string": "CCD_TEMP"
+      },
+      {
+        "offset": "0x1f5788",
+        "string": "B:\\PRIVATE1\\ZOOMDATA.IDX"
+      }
+    ],
+    "filesystem_sd_usb_ptp": [
+      {
+        "offset": "0x036608",
+        "string": "dpsVersions"
+      },
+      {
+        "offset": "0x036734",
+        "string": "dpsPrintServiceStatus"
+      },
+      {
+        "offset": "0x036f9a",
+        "string": "<dpsVersions>"
+      },
+      {
+        "offset": "0x1d8dc7",
+        "string": "UUSBMNT"
+      },
+      {
+        "offset": "0x1f3b63",
+        "string": "SD CARD FORMAT ERROR"
+      },
+      {
+        "offset": "0x1f7173",
+        "string": "UEXIF2 -J"
+      },
+      {
+        "offset": "0x1f718b",
+        "string": "EXIF1 -J"
+      },
+      {
+        "offset": "0x1f7195",
+        "string": "EXIF1 -T"
+      },
+      {
+        "offset": "0x1f719f",
+        "string": "EXIF2 -T"
+      },
+      {
+        "offset": "0x1f743c",
+        "string": "EXIF1"
+      },
+      {
+        "offset": "0x1f7442",
+        "string": "EXIF2"
+      },
+      {
+        "offset": "0x209e0f",
+        "string": "UExif"
+      },
+      {
+        "offset": "0x20ecb8",
+        "string": "USBMNT"
+      },
+      {
+        "offset": "0x20f3ef",
+        "string": "UUSBS"
+      },
+      {
+        "offset": "0x20f4fb",
+        "string": "UHREQUEST.DPS"
+      },
+      {
+        "offset": "0x20f509",
+        "string": "HRSPONSE.DPS"
+      },
+      {
+        "offset": "0x20f591",
+        "string": "HDISCVRY.DPS"
+      },
+      {
+        "offset": "0x20f59e",
+        "string": "DDISCVRY.DPS"
+      },
+      {
+        "offset": "0x20fa74",
+        "string": "DREQUEST.DPS"
+      },
+      {
+        "offset": "0x20fa81",
+        "string": "DRSPONSE.DPS"
+      },
+      {
+        "offset": "0x20ffc1",
+        "string": "FAT12   "
+      },
+      {
+        "offset": "0x20ffca",
+        "string": "FAT16   "
+      },
+      {
+        "offset": "0x20ffd3",
+        "string": "FAT32   "
+      },
+      {
+        "offset": "0x210052",
+        "string": "FAT12   "
+      },
+      {
+        "offset": "0x21005b",
+        "string": "FAT16   "
+      },
+      {
+        "offset": "0x210064",
+        "string": "FAT32   "
+      }
+    ],
+    "video_audio_hdmi": [
+      {
+        "offset": "0x1f3b78",
+        "string": "AUDIO INPUT LEVEL ERROR"
+      },
+      {
+        "offset": "0x1f465f",
+        "string": "U.MOV"
+      },
+      {
+        "offset": "0x1f540b",
+        "string": "U.MOV"
+      },
+      {
+        "offset": "0x213588",
+        "string": "\\MOv]M"
+      },
+      {
+        "offset": "0x2135a8",
+        "string": "dMOveM"
+      },
+      {
+        "offset": "0x2135c8",
+        "string": "lMOvmM"
+      },
+      {
+        "offset": "0x232981",
+        "string": "jFJkmov"
+      }
+    ],
+    "service_debug_errors": [
+      {
+        "offset": "0x036757",
+        "string": "errorStatus"
+      },
+      {
+        "offset": "0x036763",
+        "string": "errorReason"
+      },
+      {
+        "offset": "0x1d8de1",
+        "string": "###### EEPROM DATA INFORMATION ######"
+      },
+      {
+        "offset": "0x1d8e07",
+        "string": "#@1:10     : AREA          : UPDATE "
+      },
+      {
+        "offset": "0x1d8e2c",
+        "string": "#@1:20     : AREA          : FIX ADJUST "
+      },
+      {
+        "offset": "0x1d8e55",
+        "string": "#@2:00     : TYPE          : ROM "
+      },
+      {
+        "offset": "0x1eef57",
+        "string": "OIS ADJ"
+      },
+      {
+        "offset": "0x1f365f",
+        "string": "X POS SENSOR SMALL ERROR"
+      },
+      {
+        "offset": "0x1f3678",
+        "string": "Y POS SENSOR SMALL ERROR"
+      },
+      {
+        "offset": "0x1f3691",
+        "string": "X POS SENSOR BIG ERROR"
+      },
+      {
+        "offset": "0x1f36a8",
+        "string": "Y POS SENSOR BIG ERROR"
+      },
+      {
+        "offset": "0x1f36bf",
+        "string": "MREF ERROR"
+      },
+      {
+        "offset": "0x1f36d3",
+        "string": "X OFFSET ERROR"
+      },
+      {
+        "offset": "0x1f36e2",
+        "string": "Y OFFSET ERROR"
+      },
+      {
+        "offset": "0x1f36f1",
+        "string": "X GAIN ERROR"
+      },
+      {
+        "offset": "0x1f36fe",
+        "string": "Y GAIN ERROR"
+      },
+      {
+        "offset": "0x1f370b",
+        "string": "X POS SENSOR SYSTEMERROR"
+      },
+      {
+        "offset": "0x1f3724",
+        "string": "Y POS SENSOR SYSTEMERROR"
+      },
+      {
+        "offset": "0x1f373d",
+        "string": "OTHER ERROR"
+      },
+      {
+        "offset": "0x1f37e8",
+        "string": "FOCUS FREE ERROR"
+      },
+      {
+        "offset": "0x1f37f9",
+        "string": "ZOOM FREE ERROR"
+      },
+      {
+        "offset": "0x1f3809",
+        "string": "FOCUS ERROR AT W"
+      },
+      {
+        "offset": "0x1f381a",
+        "string": "DEFOCUS1 ERROR"
+      },
+      {
+        "offset": "0x1f3829",
+        "string": "DEFOCUS2 ERROR"
+      },
+      {
+        "offset": "0x1f3838",
+        "string": "FOCUS ERROR AT T"
+      },
+      {
+        "offset": "0x1f3849",
+        "string": "COLLAPSIBLE FREE ERROR"
+      },
+      {
+        "offset": "0x1f3860",
+        "string": "ROUGH ADJ ERROR"
+      },
+      {
+        "offset": "0x1f3870",
+        "string": "FINE ADJ ERROR"
+      },
+      {
+        "offset": "0x1f387f",
+        "string": "AF ERROR"
+      },
+      {
+        "offset": "0x1f3888",
+        "string": "ERR_BF_MR"
+      },
+      {
+        "offset": "0x1f3892",
+        "string": "OIS ERROR"
+      },
+      {
+        "offset": "0x1f3a4d",
+        "string": "ISO ADJ VALUE NG"
+      },
+      {
+        "offset": "0x1f3b0a",
+        "string": "STB CHARGE ERROR"
+      },
+      {
+        "offset": "0x1f3b34",
+        "string": "THERMISTOR ERROR"
+      },
+      {
+        "offset": "0x1f3b56",
+        "string": "THRESH ERROR"
+      },
+      {
+        "offset": "0x1f3b63",
+        "string": "SD CARD FORMAT ERROR"
+      },
+      {
+        "offset": "0x1f3b78",
+        "string": "AUDIO INPUT LEVEL ERROR"
+      },
+      {
+        "offset": "0x1f3d00",
+        "string": "CCD LINEARITY ERROR"
+      },
+      {
+        "offset": "0x1f3dc2",
+        "string": "STB ENVIRONMENT ERROR"
+      },
+      {
+        "offset": "0x1f3e77",
+        "string": "AXIS OFFSET(U) ERROR"
+      },
+      {
+        "offset": "0x1f3e8c",
+        "string": "AXIS OFFSET(D) ERROR"
+      },
+      {
+        "offset": "0x1f3ea1",
+        "string": "AXIS OFFSET(L) ERROR"
+      },
+      {
+        "offset": "0x1f3eb6",
+        "string": "AXIS OFFSET(R) ERROR"
+      },
+      {
+        "offset": "0x1f3f74",
+        "string": "RTC DRIVER ERROR"
+      },
+      {
+        "offset": "0x1f3fe3",
+        "string": "COPY ERROR"
+      },
+      {
+        "offset": "0x1f4074",
+        "string": "KEY INPUT ERROR"
+      },
+      {
+        "offset": "0x1f40a8",
+        "string": "SHADING ERROR"
+      },
+      {
+        "offset": "0x1f40b6",
+        "string": "32 TEMP FILTER ERROR"
+      },
+      {
+        "offset": "0x1f425f",
+        "string": "RTC Read Err:    "
+      },
+      {
+        "offset": "0x1f44b3",
+        "string": "A:\\EEPROM"
+      },
+      {
+        "offset": "0x1f4686",
+        "string": "A:\\EEPROM"
+      },
+      {
+        "offset": "0x1f5860",
+        "string": "B:\\SETUP.ADJ"
+      },
+      {
+        "offset": "0x1f586e",
+        "string": "A:\\SETUP.ADJ"
+      },
+      {
+        "offset": "0x1f5aff",
+        "string": "UB:\\SETUP.ADJ"
+      },
+      {
+        "offset": "0x1f5b0e",
+        "string": "A:\\SETUP.ADJ"
+      },
+      {
+        "offset": "0x1f5b1c",
+        "string": "B:\\ROMDATA.BIN"
+      },
+      {
+        "offset": "0x1f5b2b",
+        "string": "A:\\ROMDATA.BIN"
+      },
+      {
+        "offset": "0x1f5b3a",
+        "string": "B:\\FIRMWARE.BIN"
+      },
+      {
+        "offset": "0x1f5b4a",
+        "string": "A:\\FIRMWARE.BIN"
+      }
+    ]
+  },
+  "utf16le_samples": [
+    {
+      "offset": "0x00f824",
+      "string": "444<@@@@"
+    },
+    {
+      "offset": "0x0105f4",
+      "string": "d\\TLD<"
+    },
+    {
+      "offset": "0x010d0e",
+      "string": "@@@@@@@@"
+    },
+    {
+      "offset": "0x011b20",
+      "string": "dddddddd"
+    },
+    {
+      "offset": "0x011c34",
+      "string": "ddddd"
+    },
+    {
+      "offset": "0x011e1e",
+      "string": " d `@@` "
+    },
+    {
+      "offset": "0x011ee4",
+      "string": "<<dPx`"
+    },
+    {
+      "offset": "0x012980",
+      "string": "000   "
+    },
+    {
+      "offset": "0x012eac",
+      "string": "000P@0"
+    },
+    {
+      "offset": "0x012ecc",
+      "string": "``ddddPP"
+    },
+    {
+      "offset": "0x013180",
+      "string": "@@@ABCDFH"
+    },
+    {
+      "offset": "0x013c8a",
+      "string": "'LL@@@@P"
+    },
+    {
+      "offset": "0x013ca0",
+      "string": "ZZPP"
+    },
+    {
+      "offset": "0x1d4140",
+      "string": "HHHHHHHHHHHHHHHHH"
+    },
+    {
+      "offset": "0x1d486c",
+      "string": "DDDDDDDDDDDDDDDDD"
+    },
+    {
+      "offset": "0x1d48b0",
+      "string": "DDDDDDDDDDDDDDDDD"
+    },
+    {
+      "offset": "0x1d4b14",
+      "string": "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+    },
+    {
+      "offset": "0x1d5130",
+      "string": "&&&&&&&&&&&&&&&&&"
+    },
+    {
+      "offset": "0x1d5284",
+      "string": "88888888888888888"
+    },
+    {
+      "offset": "0x1d541c",
+      "string": "@@@@@@@@@@@@@@@@@"
+    },
+    {
+      "offset": "0x1d5460",
+      "string": "@@@@@@@@@@@@@@@@@"
+    },
+    {
+      "offset": "0x1d5b04",
+      "string": "$$$$$$$$$$$$$$$$$"
+    },
+    {
+      "offset": "0x1d6230",
+      "string": "$$$$$$$$$$$$$$$$$"
+    },
+    {
+      "offset": "0x1d6274",
+      "string": "$$$$$$$$$$$$$$$$$"
+    },
+    {
+      "offset": "0x1e5d4c",
+      "string": "   $$'''((*++--//22446688;;;==??@@BBEEGGHHJKKNNQQQRRTUUXXYY\\\\]]``abbeeffjjjkkooop"
+    },
+    {
+      "offset": "0x1e5e2e",
+      "string": "!!!$$$''))**,,..00224467799;<<>>AADDDGGGHHJKKNNOORRSSVVWWZZ[[___``dddeeiiijkkooop"
+    },
+    {
+      "offset": "0x1e5f0c",
+      "string": "   \"\"%%%''))++,..00223355888;;;>>?AABBEEFFIIJJMMNNRRRSSVVWXX\\\\\\]^^aabcddhhhijjjooop"
+    },
+    {
+      "offset": "0x1e5ff2",
+      "string": "!!##%%(((**++--0033344677::;;>>??BBCCGGGHHLLLMMQQQRSSSWWXYZZ^^^_`aaafffghiiinnnop"
+    },
+    {
+      "offset": "0x1e60d4",
+      "string": "!!\"\"%%%((***--//113355688:::==??@@BCCEFFHIIKLLOOPPSSTTWWXX[[\\\\```aaeeeffjjjklllpp"
+    },
+    {
+      "offset": "0x1e61b8",
+      "string": "\"\"$$$''))++--//0022447799::<==?@@CCCFFGGJJKKNNOORRSSWWWXX\\\\\\]]aaabccggghiimmmnop"
+    },
+    {
+      "offset": "0x1e6296",
+      "string": "  !!##%%((**,,,//1122455788;;<<>??BBCCFFGHHKKLLLPPQQUUUVWW[[[\\]]]aabcdddiiijkkkppp"
+    },
+    {
+      "offset": "0x1e637a",
+      "string": "  \"\"%%''((**--..0114447788;;<<@@@AAAEEFFFJJKLLPPPQRRVVVWXYYY^^^_`aaafffghijjjooop"
+    },
+    {
+      "offset": "0x1e645a",
+      "string": "  !!##&&((**,,..00223355788::===@@@CCDDGGGJJKKNNOORRSTTWWXX\\\\\\]]]aabcccgghiiimmnop"
+    },
+    {
+      "offset": "0x1e653e",
+      "string": " !!##%%'((**,,//1122455788:;;>>??BBCCFFGGJJKKOOOPPTTTUVVVZZ[\\\\\\``abbbggghijjjooop"
+    },
+    {
+      "offset": "0x1e6622",
+      "string": "!!##%&&((++--..11144558899<<==@@AAAEEFFFJJKLLLPPQRRRVVWXXX]]]^_```eeefghhhhnnnop"
+    },
+    {
+      "offset": "0x1e6700",
+      "string": "  \"\"\"%%%(((++,,.//223366777;;<<<@@AAAEEFGGGKKLMNNNRRSTUUUZZZ[\\]]]]cccdefggggmmmnop"
+    },
+    {
+      "offset": "0x1e67e6",
+      "string": "\"\"##&&'()*+,-./0111556699::<==@@BBBEEEGGIIKKMMOOQQSSUUXXZZ\\\\]]__bbbeeehhhkkknnop"
+    },
+    {
+      "offset": "0x1ee788",
+      "string": "<-W*n"
+    },
+    {
+      "offset": "0x1ee7b0",
+      "string": "<0X&]/d!e"
+    },
+    {
+      "offset": "0x1ee852",
+      "string": "2x2}"
+    },
+    {
+      "offset": "0x1ee9ba",
+      "string": "1h<j"
+    },
+    {
+      "offset": "0x1eec10",
+      "string": "<$T&Y'l"
+    },
+    {
+      "offset": "0x1eec38",
+      "string": "<'g\"n"
+    },
+    {
+      "offset": "0x27c83a",
+      "string": "2&$$$<"
+    },
+    {
+      "offset": "0x27e830",
+      "string": "N`````@"
+    },
+    {
+      "offset": "0x29761c",
+      "string": "```~~``````"
+    },
+    {
+      "offset": "0x297648",
+      "string": "2&$$dLHHHx"
+    },
+    {
+      "offset": "0x297678",
+      "string": "0000"
+    },
+    {
+      "offset": "0x2d689c",
+      "string": "``````"
+    },
+    {
+      "offset": "0x2d6cb2",
+      "string": "@@@@@@@"
+    },
+    {
+      "offset": "0x2db2c8",
+      "string": "000??000000"
+    },
+    {
+      "offset": "0x2db306",
+      "string": "HHHHHx"
+    },
+    {
+      "offset": "0x2dbcce",
+      "string": "3\"\">"
+    },
+    {
+      "offset": "0x2dd756",
+      "string": "kkcc"
+    },
+    {
+      "offset": "0x2ddf42",
+      "string": "````````"
+    },
+    {
+      "offset": "0x2ef0c2",
+      "string": "kkcc"
+    },
+    {
+      "offset": "0x2f3ffc",
+      "string": "~|xp`@"
+    },
+    {
+      "offset": "0x2f4998",
+      "string": "~|xp`@"
+    },
+    {
+      "offset": "0x2fdfb8",
+      "string": ">800000000"
+    },
+    {
+      "offset": "0x2fe250",
+      "string": "ccccccc"
+    },
+    {
+      "offset": "0x2fe28a",
+      "string": "````cgn|x|ngc"
+    },
+    {
+      "offset": "0x2fe2ec",
+      "string": "ccccccc"
+    },
+    {
+      "offset": "0x2fe57c",
+      "string": "````````"
+    },
+    {
+      "offset": "0x2fe75a",
+      "string": "```````"
+    },
+    {
+      "offset": "0x2fea1e",
+      "string": "``````"
+    },
+    {
+      "offset": "0x2feb62",
+      "string": "~`````"
+    },
+    {
+      "offset": "0x300f46",
+      "string": "33333"
+    },
+    {
+      "offset": "0x301a72",
+      "string": "llll"
+    },
+    {
+      "offset": "0x30220c",
+      "string": ">800000000"
+    },
+    {
+      "offset": "0x30563e",
+      "string": "80p`"
+    },
+    {
+      "offset": "0x30579c",
+      "string": "```````````````"
+    },
+    {
+      "offset": "0x305a8a",
+      "string": "````````````````"
+    },
+    {
+      "offset": "0x305d26",
+      "string": "```````"
+    },
+    {
+      "offset": "0x3060d6",
+      "string": "``````````"
+    },
+    {
+      "offset": "0x306716",
+      "string": "``````````"
+    },
+    {
+      "offset": "0x3d0cdc",
+      "string": "!Sf<"
+    },
+    {
+      "offset": "0x3d0cea",
+      "string": "!Sf<"
+    },
+    {
+      "offset": "0x3d3946",
+      "string": "<p>x"
+    }
+  ],
+  "osd_0003_samples": [
+    {
+      "offset": "0x1ddc9e",
+      "va": "0x55e59c9e",
+      "string": "PF<"
+    },
+    {
+      "offset": "0x2249f0",
+      "va": "0x55ea09f0",
+      "string": "    "
+    },
+    {
+      "offset": "0x224bba",
+      "va": "0x55ea0bba",
+      "string": "                               "
+    },
+    {
+      "offset": "0x224fcc",
+      "va": "0x55ea0fcc",
+      "string": "ENGLISH"
+    },
+    {
+      "offset": "0x224fdc",
+      "va": "0x55ea0fdc",
+      "string": "DEUTSCH"
+    },
+    {
+      "offset": "0x225006",
+      "va": "0x55ea1006",
+      "string": "AIS"
+    },
+    {
+      "offset": "0x22500e",
+      "va": "0x55ea100e",
+      "string": "ITALIANO"
+    },
+    {
+      "offset": "0x22504c",
+      "va": "0x55ea104c",
+      "string": "POLSKI"
+    },
+    {
+      "offset": "0x22505e",
+      "va": "0x55ea105e",
+      "string": "ESKY"
+    },
+    {
+      "offset": "0x225068",
+      "va": "0x55ea1068",
+      "string": "MAGYAR"
+    },
+    {
+      "offset": "0x225076",
+      "va": "0x55ea1076",
+      "string": "NEDERLANDS"
+    },
+    {
+      "offset": "0x2250f8",
+      "va": "0x55ea10f8",
+      "string": "AIS"
+    },
+    {
+      "offset": "0x225100",
+      "va": "0x55ea1100",
+      "string": "SUOMI"
+    },
+    {
+      "offset": "0x22510c",
+      "va": "0x55ea110c",
+      "string": "DANSK"
+    },
+    {
+      "offset": "0x225118",
+      "va": "0x55ea1118",
+      "string": "SVENSKA"
+    },
+    {
+      "offset": "0x225128",
+      "va": "0x55ea1128",
+      "string": "VER."
+    },
+    {
+      "offset": "0x225132",
+      "va": "0x55ea1132",
+      "string": "ADJ."
+    },
+    {
+      "offset": "0x22513c",
+      "va": "0x55ea113c",
+      "string": "REC."
+    },
+    {
+      "offset": "0x225146",
+      "va": "0x55ea1146",
+      "string": "START"
+    },
+    {
+      "offset": "0x22515e",
+      "va": "0x55ea115e",
+      "string": "SERVICE MODE"
+    },
+    {
+      "offset": "0x225182",
+      "va": "0x55ea1182",
+      "string": "SHUTTER"
+    },
+    {
+      "offset": "0x2251aa",
+      "va": "0x55ea11aa",
+      "string": "DELETE"
+    },
+    {
+      "offset": "0x2251c8",
+      "va": "0x55ea11c8",
+      "string": "MENU"
+    },
+    {
+      "offset": "0x2251e2",
+      "va": "0x55ea11e2",
+      "string": "(P)"
+    },
+    {
+      "offset": "0x225216",
+      "va": "0x55ea1216",
+      "string": "OIS"
+    },
+    {
+      "offset": "0x22521e",
+      "va": "0x55ea121e",
+      "string": "INITIAL SETTINGS"
+    },
+    {
+      "offset": "0x225240",
+      "va": "0x55ea1240",
+      "string": "NONE(JAPAN)"
+    },
+    {
+      "offset": "0x2252d4",
+      "va": "0x55ea12d4",
+      "string": "LENS"
+    },
+    {
+      "offset": "0x2252de",
+      "va": "0x55ea12de",
+      "string": "SOFT"
+    },
+    {
+      "offset": "0x2252e8",
+      "va": "0x55ea12e8",
+      "string": "HARD"
+    },
+    {
+      "offset": "0x2252f2",
+      "va": "0x55ea12f2",
+      "string": "UNDEFINED"
+    },
+    {
+      "offset": "0x225362",
+      "va": "0x55ea1362",
+      "string": "2.5M"
+    },
+    {
+      "offset": "0x225372",
+      "va": "0x55ea1372",
+      "string": "100"
+    },
+    {
+      "offset": "0x22537a",
+      "va": "0x55ea137a",
+      "string": "200"
+    },
+    {
+      "offset": "0x225382",
+      "va": "0x55ea1382",
+      "string": "400"
+    },
+    {
+      "offset": "0x22538a",
+      "va": "0x55ea138a",
+      "string": "800"
+    },
+    {
+      "offset": "0x225392",
+      "va": "0x55ea1392",
+      "string": "1600"
+    },
+    {
+      "offset": "0x2253a8",
+      "va": "0x55ea13a8",
+      "string": "7.5M"
+    },
+    {
+      "offset": "0x2253b8",
+      "va": "0x55ea13b8",
+      "string": "8.5M"
+    },
+    {
+      "offset": "0x2253c8",
+      "va": "0x55ea13c8",
+      "string": "10M"
+    },
+    {
+      "offset": "0x2253d0",
+      "va": "0x55ea13d0",
+      "string": "0.3M EZ"
+    },
+    {
+      "offset": "0x2253e0",
+      "va": "0x55ea13e0",
+      "string": "1M EZ"
+    },
+    {
+      "offset": "0x2253ec",
+      "va": "0x55ea13ec",
+      "string": "2M EZ"
+    },
+    {
+      "offset": "0x2253f8",
+      "va": "0x55ea13f8",
+      "string": "2.5M EZ"
+    },
+    {
+      "offset": "0x225408",
+      "va": "0x55ea1408",
+      "string": "3M EZ"
+    },
+    {
+      "offset": "0x225414",
+      "va": "0x55ea1414",
+      "string": "3.5M EZ"
+    },
+    {
+      "offset": "0x225424",
+      "va": "0x55ea1424",
+      "string": "4.5M EZ"
+    },
+    {
+      "offset": "0x225434",
+      "va": "0x55ea1434",
+      "string": "5M EZ"
+    },
+    {
+      "offset": "0x225440",
+      "va": "0x55ea1440",
+      "string": "5.5M EZ"
+    },
+    {
+      "offset": "0x225450",
+      "va": "0x55ea1450",
+      "string": "6M EZ"
+    },
+    {
+      "offset": "0x22545c",
+      "va": "0x55ea145c",
+      "string": "7M EZ"
+    },
+    {
+      "offset": "0x225468",
+      "va": "0x55ea1468",
+      "string": "10fps VGA"
+    },
+    {
+      "offset": "0x22547c",
+      "va": "0x55ea147c",
+      "string": "10fps QVGA"
+    },
+    {
+      "offset": "0x225492",
+      "va": "0x55ea1492",
+      "string": "30fps VGA"
+    },
+    {
+      "offset": "0x2254a6",
+      "va": "0x55ea14a6",
+      "string": "30fps QVGA"
+    },
+    {
+      "offset": "0x2254bc",
+      "va": "0x55ea14bc",
+      "string": "10fps 16:9"
+    },
+    {
+      "offset": "0x2254d2",
+      "va": "0x55ea14d2",
+      "string": "10fps 16:9L"
+    },
+    {
+      "offset": "0x2254ea",
+      "va": "0x55ea14ea",
+      "string": "15fps 16:9L"
+    },
+    {
+      "offset": "0x225502",
+      "va": "0x55ea1502",
+      "string": "15fps 16:9H"
+    },
+    {
+      "offset": "0x22551a",
+      "va": "0x55ea151a",
+      "string": "30fps 16:9"
+    },
+    {
+      "offset": "0x225530",
+      "va": "0x55ea1530",
+      "string": "30fps 16:9L"
+    },
+    {
+      "offset": "0x225548",
+      "va": "0x55ea1548",
+      "string": "30fps 16:9H"
+    },
+    {
+      "offset": "0x225560",
+      "va": "0x55ea1560",
+      "string": "4:3"
+    },
+    {
+      "offset": "0x225568",
+      "va": "0x55ea1568",
+      "string": "3:2"
+    },
+    {
+      "offset": "0x225570",
+      "va": "0x55ea1570",
+      "string": "16:9"
+    },
+    {
+      "offset": "0x2256ae",
+      "va": "0x55ea16ae",
+      "string": "4:3/3M"
+    },
+    {
+      "offset": "0x2256bc",
+      "va": "0x55ea16bc",
+      "string": "4:3/2M"
+    },
+    {
+      "offset": "0x2256ca",
+      "va": "0x55ea16ca",
+      "string": "3:2/2.5M"
+    },
+    {
+      "offset": "0x2256dc",
+      "va": "0x55ea16dc",
+      "string": "16:9/2M"
+    },
+    {
+      "offset": "0x2256ec",
+      "va": "0x55ea16ec",
+      "string": "VER."
+    },
+    {
+      "offset": "0x2256f6",
+      "va": "0x55ea16f6",
+      "string": "MF ERROR"
+    },
+    {
+      "offset": "0x225708",
+      "va": "0x55ea1708",
+      "string": "PictBridge"
+    },
+    {
+      "offset": "0x225724",
+      "va": "0x55ea1724",
+      "string": "(PTP)"
+    },
+    {
+      "offset": "0x225730",
+      "va": "0x55ea1730",
+      "string": "PictBridge(PTP)"
+    },
+    {
+      "offset": "0x225750",
+      "va": "0x55ea1750",
+      "string": "PictBridge"
+    },
+    {
+      "offset": "0x225768",
+      "va": "0x55ea1768",
+      "string": "EEP"
+    },
+    {
+      "offset": "0x225770",
+      "va": "0x55ea1770",
+      "string": " EEP "
+    },
+    {
+      "offset": "0x22577c",
+      "va": "0x55ea177c",
+      "string": "ROM BACKUP"
+    },
+    {
+      "offset": "0x2257ac",
+      "va": "0x55ea17ac",
+      "string": "DSC(ID CHECK)"
+    },
+    {
+      "offset": "0x2257d4",
+      "va": "0x55ea17d4",
+      "string": "DSC(FORCE)"
+    },
+    {
+      "offset": "0x2257ee",
+      "va": "0x55ea17ee",
+      "string": "LUMIX"
+    },
+    {
+      "offset": "0x225808",
+      "va": "0x55ea1808",
+      "string": "DSC(FORCE)"
+    },
+    {
+      "offset": "0x22581e",
+      "va": "0x55ea181e",
+      "string": "OVERWRITE?"
+    },
+    {
+      "offset": "0x3d23ea",
+      "va": "0x5604e3ea",
+      "string": "+cS#"
+    },
+    {
+      "offset": "0x3d5044",
+      "va": "0x56051044",
+      "string": "LCD"
+    },
+    {
+      "offset": "0x3d58e6",
+      "va": "0x560518e6",
+      "string": " (ZR6)"
+    },
+    {
+      "offset": "0x3d5a66",
+      "va": "0x56051a66",
+      "string": "SET1"
+    },
+    {
+      "offset": "0x3d5a70",
+      "va": "0x56051a70",
+      "string": "SET2"
+    },
+    {
+      "offset": "0x3d5a7a",
+      "va": "0x56051a7a",
+      "string": "SET3"
+    },
+    {
+      "offset": "0x3d5fb4",
+      "va": "0x56051fb4",
+      "string": "OFF"
+    },
+    {
+      "offset": "0x3d5fbc",
+      "va": "0x56051fbc",
+      "string": "OFF"
+    },
+    {
+      "offset": "0x3d684c",
+      "va": "0x5605284c",
+      "string": "DPOF"
+    },
+    {
+      "offset": "0x3d68a2",
+      "va": "0x560528a2",
+      "string": "DPOF"
+    },
+    {
+      "offset": "0x3d78c8",
+      "va": "0x560538c8",
+      "string": "ISO"
+    },
+    {
+      "offset": "0x3d864e",
+      "va": "0x5605464e",
+      "string": "LCD"
+    },
+    {
+      "offset": "0x3d87b2",
+      "va": "0x560547b2",
+      "string": "ISO MAX 400"
+    },
+    {
+      "offset": "0x3d87ca",
+      "va": "0x560547ca",
+      "string": "ISO MAX 800"
+    },
+    {
+      "offset": "0x3d87e2",
+      "va": "0x560547e2",
+      "string": "ISO MAX 1600"
+    },
+    {
+      "offset": "0x3d881a",
+      "va": "0x5605481a",
+      "string": "OFF"
+    },
+    {
+      "offset": "0x3d8dae",
+      "va": "0x56054dae",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3d8dbc",
+      "va": "0x56054dbc",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3d8dca",
+      "va": "0x56054dca",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3d8dd8",
+      "va": "0x56054dd8",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3d8de6",
+      "va": "0x56054de6",
+      "string": "DELETE"
+    },
+    {
+      "offset": "0x3d8df4",
+      "va": "0x56054df4",
+      "string": "EXIT"
+    },
+    {
+      "offset": "0x3d8dfe",
+      "va": "0x56054dfe",
+      "string": "END"
+    },
+    {
+      "offset": "0x3d8e10",
+      "va": "0x56054e10",
+      "string": "UNMARK"
+    },
+    {
+      "offset": "0x3d8e1e",
+      "va": "0x56054e1e",
+      "string": "MENU"
+    },
+    {
+      "offset": "0x3d8e34",
+      "va": "0x56054e34",
+      "string": "ALL"
+    },
+    {
+      "offset": "0x3d8e3c",
+      "va": "0x56054e3c",
+      "string": "SELECT"
+    },
+    {
+      "offset": "0x3d8e4a",
+      "va": "0x56054e4a",
+      "string": "SET"
+    },
+    {
+      "offset": "0x3d8e52",
+      "va": "0x56054e52",
+      "string": "SET"
+    },
+    {
+      "offset": "0x3d8e62",
+      "va": "0x56054e62",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3d8e70",
+      "va": "0x56054e70",
+      "string": "START"
+    },
+    {
+      "offset": "0x3d8e7c",
+      "va": "0x56054e7c",
+      "string": "STOP"
+    },
+    {
+      "offset": "0x3d8e86",
+      "va": "0x56054e86",
+      "string": "TRIM"
+    },
+    {
+      "offset": "0x3d8e90",
+      "va": "0x56054e90",
+      "string": "SHUTTER"
+    },
+    {
+      "offset": "0x3d8ea0",
+      "va": "0x56054ea0",
+      "string": "ZOOM"
+    },
+    {
+      "offset": "0x3d8eaa",
+      "va": "0x56054eaa",
+      "string": "RESIZE"
+    },
+    {
+      "offset": "0x3d8eb8",
+      "va": "0x56054eb8",
+      "string": "PRINT"
+    },
+    {
+      "offset": "0x3d8ec4",
+      "va": "0x56054ec4",
+      "string": "SET COUNT"
+    },
+    {
+      "offset": "0x3d8ed8",
+      "va": "0x56054ed8",
+      "string": "PROGRAM SHIFT"
+    },
+    {
+      "offset": "0x3d8ef4",
+      "va": "0x56054ef4",
+      "string": "BACKLIGHT"
+    },
+    {
+      "offset": "0x3d8f08",
+      "va": "0x56054f08",
+      "string": "DEMO."
+    },
+    {
+      "offset": "0x3d8f14",
+      "va": "0x56054f14",
+      "string": "LCD MODE"
+    },
+    {
+      "offset": "0x3d8f26",
+      "va": "0x56054f26",
+      "string": "POWER LCD"
+    },
+    {
+      "offset": "0x3d8f3a",
+      "va": "0x56054f3a",
+      "string": "HIGH ANGLE"
+    },
+    {
+      "offset": "0x3d8f54",
+      "va": "0x56054f54",
+      "string": "PRESS"
+    },
+    {
+      "offset": "0x3d8f6c",
+      "va": "0x56054f6c",
+      "string": "SEC."
+    },
+    {
+      "offset": "0x3d8f76",
+      "va": "0x56054f76",
+      "string": "REC"
+    },
+    {
+      "offset": "0x3d8f7e",
+      "va": "0x56054f7e",
+      "string": "SETUP"
+    },
+    {
+      "offset": "0x3d8f8a",
+      "va": "0x56054f8a",
+      "string": "PLAYBACK"
+    },
+    {
+      "offset": "0x3d8f9c",
+      "va": "0x56054f9c",
+      "string": "YES"
+    },
+    {
+      "offset": "0x3d8faa",
+      "va": "0x56054faa",
+      "string": "REVIEW1X"
+    },
+    {
+      "offset": "0x3d8fbc",
+      "va": "0x56054fbc",
+      "string": "REVIEW4X"
+    },
+    {
+      "offset": "0x3d8fce",
+      "va": "0x56054fce",
+      "string": "REVIEW8X"
+    },
+    {
+      "offset": "0x3d8fe0",
+      "va": "0x56054fe0",
+      "string": "REVIEW"
+    },
+    {
+      "offset": "0x3d8fee",
+      "va": "0x56054fee",
+      "string": "EXPOSURE"
+    },
+    {
+      "offset": "0x3d9000",
+      "va": "0x56055000",
+      "string": "AUTO BRACKET"
+    },
+    {
+      "offset": "0x3d901a",
+      "va": "0x5605501a",
+      "string": "WB ADJUST."
+    },
+    {
+      "offset": "0x3d9030",
+      "va": "0x56055030",
+      "string": "RED"
+    },
+    {
+      "offset": "0x3d9038",
+      "va": "0x56055038",
+      "string": "BLUE"
+    },
+    {
+      "offset": "0x3d9042",
+      "va": "0x56055042",
+      "string": "FLASH"
+    },
+    {
+      "offset": "0x3d9052",
+      "va": "0x56055052",
+      "string": "AF LOCK"
+    },
+    {
+      "offset": "0x3d9062",
+      "va": "0x56055062",
+      "string": "STABILIZER"
+    },
+    {
+      "offset": "0x3d9078",
+      "va": "0x56055078",
+      "string": "STABILIZER DEMO."
+    },
+    {
+      "offset": "0x3d90a0",
+      "va": "0x560550a0",
+      "string": "OFF"
+    },
+    {
+      "offset": "0x3d90a8",
+      "va": "0x560550a8",
+      "string": "ADJUST."
+    },
+    {
+      "offset": "0x3d90b8",
+      "va": "0x560550b8",
+      "string": "FLASH"
+    },
+    {
+      "offset": "0x3d90c4",
+      "va": "0x560550c4",
+      "string": "BURST SHOOTING"
+    },
+    {
+      "offset": "0x3d90e2",
+      "va": "0x560550e2",
+      "string": "SELFTIMER"
+    },
+    {
+      "offset": "0x3d90f6",
+      "va": "0x560550f6",
+      "string": "HIGH SPEED"
+    },
+    {
+      "offset": "0x3d910c",
+      "va": "0x5605510c",
+      "string": "LOW SPEED"
+    },
+    {
+      "offset": "0x3d9120",
+      "va": "0x56055120",
+      "string": "UNLIMITED"
+    },
+    {
+      "offset": "0x3d9134",
+      "va": "0x56055134",
+      "string": "AUTO"
+    },
+    {
+      "offset": "0x3d913e",
+      "va": "0x5605513e",
+      "string": "FORCED ON/RED-EYE"
+    },
+    {
+      "offset": "0x3d9162",
+      "va": "0x56055162",
+      "string": "SLOW SYNC./RED-EYE"
+    },
+    {
+      "offset": "0x3d918a",
+      "va": "0x5605518a",
+      "string": "2SEC."
+    },
+    {
+      "offset": "0x3d9198",
+      "va": "0x56055198",
+      "string": "10SEC."
+    },
+    {
+      "offset": "0x3d91a6",
+      "va": "0x560551a6",
+      "string": "DELETE"
+    },
+    {
+      "offset": "0x3d91b4",
+      "va": "0x560551b4",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3d91c2",
+      "va": "0x560551c2",
+      "string": "PLAY MOTION"
+    },
+    {
+      "offset": "0x3d91da",
+      "va": "0x560551da",
+      "string": "PICTURE"
+    },
+    {
+      "offset": "0x3d921c",
+      "va": "0x5605521c",
+      "string": "AS ONE SINGLE PICTURE ?"
+    },
+    {
+      "offset": "0x3d9282",
+      "va": "0x56055282",
+      "string": "SAVE"
+    },
+    {
+      "offset": "0x3d928c",
+      "va": "0x5605528c",
+      "string": "PLAY AUDIO"
+    },
+    {
+      "offset": "0x3d92a2",
+      "va": "0x560552a2",
+      "string": "MONTH"
+    },
+    {
+      "offset": "0x3d92ae",
+      "va": "0x560552ae",
+      "string": "DAY"
+    },
+    {
+      "offset": "0x3d92b6",
+      "va": "0x560552b6",
+      "string": "WHITE BALANCE"
+    },
+    {
+      "offset": "0x3d92d2",
+      "va": "0x560552d2",
+      "string": "SENSITIVITY"
+    },
+    {
+      "offset": "0x3d92ea",
+      "va": "0x560552ea",
+      "string": "PICTURE SIZE"
+    },
+    {
+      "offset": "0x3d9304",
+      "va": "0x56055304",
+      "string": "QUALITY"
+    },
+    {
+      "offset": "0x3d9314",
+      "va": "0x56055314",
+      "string": "ASPECT RATIO"
+    },
+    {
+      "offset": "0x3d932e",
+      "va": "0x5605532e",
+      "string": "AUDIO REC."
+    },
+    {
+      "offset": "0x3d9344",
+      "va": "0x56055344",
+      "string": "METERING MODE"
+    },
+    {
+      "offset": "0x3d9360",
+      "va": "0x56055360",
+      "string": "AF MODE"
+    },
+    {
+      "offset": "0x3d9370",
+      "va": "0x56055370",
+      "string": "CONTINUOUS AF"
+    },
+    {
+      "offset": "0x3d938c",
+      "va": "0x5605538c",
+      "string": "AF ASSIST LAMP"
+    },
+    {
+      "offset": "0x3d93aa",
+      "va": "0x560553aa",
+      "string": "DIGITAL ZOOM"
+    },
+    {
+      "offset": "0x3d93c4",
+      "va": "0x560553c4",
+      "string": "COLOR EFFECT"
+    },
+    {
+      "offset": "0x3d93de",
+      "va": "0x560553de",
+      "string": "PICT.ADJ."
+    },
+    {
+      "offset": "0x3d93f2",
+      "va": "0x560553f2",
+      "string": "FLIP ANIM."
+    },
+    {
+      "offset": "0x3d9408",
+      "va": "0x56055408",
+      "string": "EXT.FLASH"
+    },
+    {
+      "offset": "0x3d941c",
+      "va": "0x5605541c",
+      "string": "CONVERSION"
+    },
+    {
+      "offset": "0x3d9432",
+      "va": "0x56055432",
+      "string": "SLOW SHUTTER"
+    },
+    {
+      "offset": "0x3d944c",
+      "va": "0x5605544c",
+      "string": "EX.FLASH BURST"
+    },
+    {
+      "offset": "0x3d946a",
+      "va": "0x5605546a",
+      "string": "PICTURE MODE"
+    },
+    {
+      "offset": "0x3d9484",
+      "va": "0x56055484",
+      "string": "AF/AE LOCK"
+    },
+    {
+      "offset": "0x3d949a",
+      "va": "0x5605549a",
+      "string": "FOCUS/AE LOCK"
+    },
+    {
+      "offset": "0x3d94d8",
+      "va": "0x560554d8",
+      "string": "CONTRAST"
+    },
+    {
+      "offset": "0x3d94ea",
+      "va": "0x560554ea",
+      "string": "SHARPNESS"
+    },
+    {
+      "offset": "0x3d94fe",
+      "va": "0x560554fe",
+      "string": "SATURATION"
+    },
+    {
+      "offset": "0x3d9514",
+      "va": "0x56055514",
+      "string": "NOISE REDUCTION"
+    },
+    {
+      "offset": "0x3d9534",
+      "va": "0x56055534",
+      "string": "CREATE MOTION PICTURE"
+    },
+    {
+      "offset": "0x3d9560",
+      "va": "0x56055560",
+      "string": "PICTURE CAPTURE"
+    },
+    {
+      "offset": "0x3d9580",
+      "va": "0x56055580",
+      "string": "DELETE STILL PICTURES"
+    },
+    {
+      "offset": "0x3d95ac",
+      "va": "0x560555ac",
+      "string": "FRAME RATE"
+    },
+    {
+      "offset": "0x3d961a",
+      "va": "0x5605561a",
+      "string": "ANIMATION ?"
+    },
+    {
+      "offset": "0x3d9644",
+      "va": "0x56055644",
+      "string": "MOTION PICTURE FILE"
+    },
+    {
+      "offset": "0x3d966c",
+      "va": "0x5605566c",
+      "string": "FILE NO.: "
+    },
+    {
+      "offset": "0x3d9682",
+      "va": "0x56055682",
+      "string": "REMAIN "
+    },
+    {
+      "offset": "0x3d9692",
+      "va": "0x56055692",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3d96a0",
+      "va": "0x560556a0",
+      "string": "WHITE SET"
+    },
+    {
+      "offset": "0x3d96b4",
+      "va": "0x560556b4",
+      "string": "WHITE SET 1"
+    },
+    {
+      "offset": "0x3d96cc",
+      "va": "0x560556cc",
+      "string": "WHITE SET 2"
+    },
+    {
+      "offset": "0x3d96e4",
+      "va": "0x560556e4",
+      "string": "MONITOR"
+    },
+    {
+      "offset": "0x3d96f4",
+      "va": "0x560556f4",
+      "string": "VIEWFINDER"
+    },
+    {
+      "offset": "0x3d970a",
+      "va": "0x5605570a",
+      "string": "AUTO REVIEW"
+    },
+    {
+      "offset": "0x3d9722",
+      "va": "0x56055722",
+      "string": "PLAY ON LCD"
+    },
+    {
+      "offset": "0x3d973a",
+      "va": "0x5605573a",
+      "string": "POWER SAVE"
+    },
+    {
+      "offset": "0x3d9750",
+      "va": "0x56055750",
+      "string": "BEEP"
+    },
+    {
+      "offset": "0x3d975a",
+      "va": "0x5605575a",
+      "string": "SHUTTER"
+    },
+    {
+      "offset": "0x3d976a",
+      "va": "0x5605576a",
+      "string": "VOLUME"
+    },
+    {
+      "offset": "0x3d9778",
+      "va": "0x56055778",
+      "string": "CLOCK SET"
+    },
+    {
+      "offset": "0x3d978c",
+      "va": "0x5605578c",
+      "string": "NO.RESET"
+    },
+    {
+      "offset": "0x3d979e",
+      "va": "0x5605579e",
+      "string": "RESET"
+    },
+    {
+      "offset": "0x3d97aa",
+      "va": "0x560557aa",
+      "string": "USB MODE"
+    },
+    {
+      "offset": "0x3d97bc",
+      "va": "0x560557bc",
+      "string": "HIGHLIGHT"
+    },
+    {
+      "offset": "0x3d97d0",
+      "va": "0x560557d0",
+      "string": "VIDEO OUT"
+    },
+    {
+      "offset": "0x3d97e4",
+      "va": "0x560557e4",
+      "string": "SCENE MENU"
+    },
+    {
+      "offset": "0x3d97fa",
+      "va": "0x560557fa",
+      "string": "LANGUAGE"
+    },
+    {
+      "offset": "0x3d980c",
+      "va": "0x5605580c",
+      "string": "MF ASSIST"
+    },
+    {
+      "offset": "0x3d9820",
+      "va": "0x56055820",
+      "string": "ECONOMY"
+    },
+    {
+      "offset": "0x3d9830",
+      "va": "0x56055830",
+      "string": "BEEP LEVEL"
+    },
+    {
+      "offset": "0x3d9846",
+      "va": "0x56055846",
+      "string": "BEEP TONE"
+    },
+    {
+      "offset": "0x3d985a",
+      "va": "0x5605585a",
+      "string": "SHUTTER VOL."
+    },
+    {
+      "offset": "0x3d9874",
+      "va": "0x56055874",
+      "string": "SHUTTER TONE"
+    },
+    {
+      "offset": "0x3d988e",
+      "va": "0x5605588e",
+      "string": "PIXEL REFRESH"
+    },
+    {
+      "offset": "0x3d98aa",
+      "va": "0x560558aa",
+      "string": "m/ft"
+    },
+    {
+      "offset": "0x3d98b4",
+      "va": "0x560558b4",
+      "string": "GUIDE LINE"
+    },
+    {
+      "offset": "0x3d98ca",
+      "va": "0x560558ca",
+      "string": "TRAVEL DATE"
+    },
+    {
+      "offset": "0x3d98e2",
+      "va": "0x560558e2",
+      "string": "AF BEEP"
+    },
+    {
+      "offset": "0x3d98f2",
+      "va": "0x560558f2",
+      "string": " DAY"
+    },
+    {
+      "offset": "0x3d98fc",
+      "va": "0x560558fc",
+      "string": " DAYS"
+    },
+    {
+      "offset": "0x3d9908",
+      "va": "0x56055908",
+      "string": "ST DAY"
+    },
+    {
+      "offset": "0x3d9916",
+      "va": "0x56055916",
+      "string": "ND DAY"
+    },
+    {
+      "offset": "0x3d9924",
+      "va": "0x56055924",
+      "string": "RD DAY"
+    },
+    {
+      "offset": "0x3d9932",
+      "va": "0x56055932",
+      "string": "TH DAY"
+    },
+    {
+      "offset": "0x3d995e",
+      "va": "0x5605595e",
+      "string": "DEPARTURE DATE"
+    },
+    {
+      "offset": "0x3d997c",
+      "va": "0x5605597c",
+      "string": "PATTERN"
+    },
+    {
+      "offset": "0x3d998c",
+      "va": "0x5605598c",
+      "string": "REC. INFO."
+    },
+    {
+      "offset": "0x3d99c0",
+      "va": "0x560559c0",
+      "string": "IN THE CAMERA?"
+    },
+    {
+      "offset": "0x3d9a00",
+      "va": "0x56055a00",
+      "string": "IN THE CAMERA?"
+    },
+    {
+      "offset": "0x3d9a1e",
+      "va": "0x56055a1e",
+      "string": "RESET REC. SETTINGS?"
+    },
+    {
+      "offset": "0x3d9a64",
+      "va": "0x56055a64",
+      "string": "RESET COMPLETED"
+    },
+    {
+      "offset": "0x3d9a9c",
+      "va": "0x56055a9c",
+      "string": "PARAMETERS?"
+    },
+    {
+      "offset": "0x3d9ad8",
+      "va": "0x56055ad8",
+      "string": "SELECT ON CONNECTION"
+    },
+    {
+      "offset": "0x3d9b1e",
+      "va": "0x56055b1e",
+      "string": "THE USB MODE"
+    },
+    {
+      "offset": "0x3d9b38",
+      "va": "0x56055b38",
+      "string": "TV ASPECT"
+    },
+    {
+      "offset": "0x3d9b76",
+      "va": "0x56055b76",
+      "string": "FOR 16:9 TV"
+    },
+    {
+      "offset": "0x3d9bb8",
+      "va": "0x56055bb8",
+      "string": "FOR 4:3 TV"
+    },
+    {
+      "offset": "0x3d9bce",
+      "va": "0x56055bce",
+      "string": "FOR 16:9"
+    },
+    {
+      "offset": "0x3d9be0",
+      "va": "0x56055be0",
+      "string": "FOR 4:3"
+    },
+    {
+      "offset": "0x3d9c0a",
+      "va": "0x56055c0a",
+      "string": " TV ASPECT"
+    },
+    {
+      "offset": "0x3d9c20",
+      "va": "0x56055c20",
+      "string": "WORLD TIME"
+    },
+    {
+      "offset": "0x3d9c36",
+      "va": "0x56055c36",
+      "string": "HOME"
+    },
+    {
+      "offset": "0x3d9c40",
+      "va": "0x56055c40",
+      "string": "DESTINATION"
+    },
+    {
+      "offset": "0x3d9c7e",
+      "va": "0x56055c7e",
+      "string": "SET TO HOME TIME"
+    },
+    {
+      "offset": "0x3d9cc6",
+      "va": "0x56055cc6",
+      "string": "SET TO DESTINATION TIME"
+    },
+    {
+      "offset": "0x3d9cf6",
+      "va": "0x56055cf6",
+      "string": "SUMMER TIME"
+    },
+    {
+      "offset": "0x3d9d2c",
+      "va": "0x56055d2c",
+      "string": "HOME AREA"
+    },
+    {
+      "offset": "0x3d9d40",
+      "va": "0x56055d40",
+      "string": "BATTERY TYPE"
+    },
+    {
+      "offset": "0x3d9d78",
+      "va": "0x56055d78",
+      "string": "Ni-MH"
+    },
+    {
+      "offset": "0x3d9d84",
+      "va": "0x56055d84",
+      "string": "OXYRIDE (ZR6)"
+    },
+    {
+      "offset": "0x3d9dca",
+      "va": "0x56055dca",
+      "string": "SETTING: ALKALINE/Ni-MH"
+    },
+    {
+      "offset": "0x3d9e24",
+      "va": "0x56055e24",
+      "string": "SETTING: OXYRIDE"
+    },
+    {
+      "offset": "0x3d9e46",
+      "va": "0x56055e46",
+      "string": "CUST.SET MEM."
+    },
+    {
+      "offset": "0x3d9eaa",
+      "va": "0x56055eaa",
+      "string": "CUSTOM SET 1 ?"
+    },
+    {
+      "offset": "0x3d9f10",
+      "va": "0x56055f10",
+      "string": "CUSTOM SET 2 ?"
+    },
+    {
+      "offset": "0x3d9f76",
+      "va": "0x56055f76",
+      "string": "CUSTOM SET 3 ?"
+    },
+    {
+      "offset": "0x3d9f94",
+      "va": "0x56055f94",
+      "string": "CUSTOM"
+    },
+    {
+      "offset": "0x3d9fa2",
+      "va": "0x56055fa2",
+      "string": "CUSTOM SET 1"
+    },
+    {
+      "offset": "0x3d9fbc",
+      "va": "0x56055fbc",
+      "string": "CUSTOM SET 2"
+    },
+    {
+      "offset": "0x3d9fd6",
+      "va": "0x56055fd6",
+      "string": "CUSTOM SET 3"
+    },
+    {
+      "offset": "0x3d9ff0",
+      "va": "0x56055ff0",
+      "string": "SET1"
+    },
+    {
+      "offset": "0x3d9ffa",
+      "va": "0x56055ffa",
+      "string": "SET2"
+    },
+    {
+      "offset": "0x3da004",
+      "va": "0x56056004",
+      "string": "SET3"
+    },
+    {
+      "offset": "0x3da00e",
+      "va": "0x5605600e",
+      "string": "COMPLETED"
+    },
+    {
+      "offset": "0x3da022",
+      "va": "0x56056022",
+      "string": "SINGLE"
+    },
+    {
+      "offset": "0x3da030",
+      "va": "0x56056030",
+      "string": "MULTI"
+    },
+    {
+      "offset": "0x3da03c",
+      "va": "0x5605603c",
+      "string": "CANCEL"
+    },
+    {
+      "offset": "0x3da04a",
+      "va": "0x5605604a",
+      "string": "ROTATE"
+    },
+    {
+      "offset": "0x3da058",
+      "va": "0x56056058",
+      "string": "ROTATE DISP."
+    },
+    {
+      "offset": "0x3da072",
+      "va": "0x56056072",
+      "string": "FAVORITE"
+    },
+    {
+      "offset": "0x3da084",
+      "va": "0x56056084",
+      "string": "CANCEL ALL FAVORITE"
+    },
+    {
+      "offset": "0x3da0d4",
+      "va": "0x560560d4",
+      "string": "SETTINGS ?"
+    },
+    {
+      "offset": "0x3da0ea",
+      "va": "0x560560ea",
+      "string": "PROTECT"
+    },
+    {
+      "offset": "0x3da0fa",
+      "va": "0x560560fa",
+      "string": "PROTECT THIS"
+    },
+    {
+      "offset": "0x3da114",
+      "va": "0x56056114",
+      "string": "PROTECT SET MULTI"
+    },
+    {
+      "offset": "0x3da138",
+      "va": "0x56056138",
+      "string": "PROTECT CANCEL"
+    },
+    {
+      "offset": "0x3da156",
+      "va": "0x56056156",
+      "string": "CANCEL ALL PROTECT?"
+    },
+    {
+      "offset": "0x3da17e",
+      "va": "0x5605617e",
+      "string": "DPOF PRINT"
+    },
+    {
+      "offset": "0x3da194",
+      "va": "0x56056194",
+      "string": "DPOF SET THIS"
+    },
+    {
+      "offset": "0x3da1b0",
+      "va": "0x560561b0",
+      "string": "DPOF SET MULTI"
+    },
+    {
+      "offset": "0x3da1ce",
+      "va": "0x560561ce",
+      "string": "CANCEL ALL DPOF"
+    },
+    {
+      "offset": "0x3da1ee",
+      "va": "0x560561ee",
+      "string": "COUNT"
+    },
+    {
+      "offset": "0x3da21a",
+      "va": "0x5605621a",
+      "string": "PRINT SETTINGS?"
+    },
+    {
+      "offset": "0x3da23a",
+      "va": "0x5605623a",
+      "string": "DATE"
+    },
+    {
+      "offset": "0x3da244",
+      "va": "0x56056244",
+      "string": "SLIDE SHOW"
+    },
+    {
+      "offset": "0x3da25a",
+      "va": "0x5605625a",
+      "string": "ALL"
+    },
+    {
+      "offset": "0x3da262",
+      "va": "0x56056262",
+      "string": "ALL SLIDE SHOW"
+    },
+    {
+      "offset": "0x3da282",
+      "va": "0x56056282",
+      "string": "SLIDE SHOW"
+    },
+    {
+      "offset": "0x3da298",
+      "va": "0x56056298",
+      "string": "START"
+    },
+    {
+      "offset": "0x3da2a4",
+      "va": "0x560562a4",
+      "string": "DURATION"
+    },
+    {
+      "offset": "0x3da2b6",
+      "va": "0x560562b6",
+      "string": "EFFECT"
+    },
+    {
+      "offset": "0x3da2c4",
+      "va": "0x560562c4",
+      "string": "AUDIO"
+    },
+    {
+      "offset": "0x3da2d0",
+      "va": "0x560562d0",
+      "string": "START SLIDE SHOW"
+    },
+    {
+      "offset": "0x3da2f2",
+      "va": "0x560562f2",
+      "string": "END OF SLIDE SHOW"
+    },
+    {
+      "offset": "0x3da316",
+      "va": "0x56056316",
+      "string": "STOP"
+    },
+    {
+      "offset": "0x3da320",
+      "va": "0x56056320",
+      "string": "DPOF SET"
+    },
+    {
+      "offset": "0x3da332",
+      "va": "0x56056332",
+      "string": "AUDIO DUB."
+    },
+    {
+      "offset": "0x3da348",
+      "va": "0x56056348",
+      "string": "AUDIO"
+    },
+    {
+      "offset": "0x3da354",
+      "va": "0x56056354",
+      "string": "OVERWRITE AUDIO DATA?"
+    },
+    {
+      "offset": "0x3da380",
+      "va": "0x56056380",
+      "string": "RESIZE"
+    },
+    {
+      "offset": "0x3da3ae",
+      "va": "0x560563ae",
+      "string": "PICTURE?"
+    },
+    {
+      "offset": "0x3da3e8",
+      "va": "0x560563e8",
+      "string": "BE RESIZED"
+    },
+    {
+      "offset": "0x3da3fe",
+      "va": "0x560563fe",
+      "string": "TRIMMING"
+    },
+    {
+      "offset": "0x3da410",
+      "va": "0x56056410",
+      "string": "ZOOM"
+    },
+    {
+      "offset": "0x3da442",
+      "va": "0x56056442",
+      "string": "BE TRIMMED"
+    },
+    {
+      "offset": "0x3da458",
+      "va": "0x56056458",
+      "string": "FORMAT"
+    },
+    {
+      "offset": "0x3da486",
+      "va": "0x56056486",
+      "string": "ON THE MEMORY CARD?"
+    },
+    {
+      "offset": "0x3da4ce",
+      "va": "0x560564ce",
+      "string": "ON THE BUILT-IN MEMORY?"
+    },
+    {
+      "offset": "0x3da4fe",
+      "va": "0x560564fe",
+      "string": "COPY"
+    },
+    {
+      "offset": "0x3da554",
+      "va": "0x56056554",
+      "string": "MEMORY CARD ?"
+    },
+    {
+      "offset": "0x3da59a",
+      "va": "0x5605659a",
+      "string": "BUILT-IN MEMORY ?"
+    },
+    {
+      "offset": "0x3da5cc",
+      "va": "0x560565cc",
+      "string": "CONV."
+    },
+    {
+      "offset": "0x3da5d8",
+      "va": "0x560565d8",
+      "string": "ADJUST. "
+    },
+    {
+      "offset": "0x3da5f4",
+      "va": "0x560565f4",
+      "string": "DISPLAY"
+    },
+    {
+      "offset": "0x3da646",
+      "va": "0x56056646",
+      "string": "IS LOCKED"
+    },
+    {
+      "offset": "0x3da67a",
+      "va": "0x5605667a",
+      "string": "PROTECTED"
+    },
+    {
+      "offset": "0x3da6a8",
+      "va": "0x560566a8",
+      "string": "CANNOT BE DELETED"
+    },
+    {
+      "offset": "0x3da6e4",
+      "va": "0x560566e4",
+      "string": "PICTURE?"
+    },
+    {
+      "offset": "0x3da6f6",
+      "va": "0x560566f6",
+      "string": "DELETE MULTI"
+    },
+    {
+      "offset": "0x3da710",
+      "va": "0x56056710",
+      "string": "DELETE ALL"
+    },
+    {
+      "offset": "0x3da74c",
+      "va": "0x5605674c",
+      "string": "DELETE SINGLE"
+    },
+    {
+      "offset": "0x3da774",
+      "va": "0x56056774",
+      "string": "ALL DELETE"
+    },
+    {
+      "offset": "0x3da78a",
+      "va": "0x5605678a",
+      "string": "DELETE THIS PICTURE?"
+    },
+    {
+      "offset": "0x3da7dc",
+      "va": "0x560567dc",
+      "string": "YOU MARKED?"
+    },
+    {
+      "offset": "0x3da81c",
+      "va": "0x5605681c",
+      "string": "ON THE MEMORY CARD ?"
+    },
+    {
+      "offset": "0x3da86e",
+      "va": "0x5605686e",
+      "string": "ON THE BUILT-IN MEMORY ?"
+    },
+    {
+      "offset": "0x3da8ce",
+      "va": "0x560568ce",
+      "string": "OFF"
+    },
+    {
+      "offset": "0x3da8d6",
+      "va": "0x560568d6",
+      "string": "OFF"
+    },
+    {
+      "offset": "0x3da8de",
+      "va": "0x560568de",
+      "string": "LOW"
+    },
+    {
+      "offset": "0x3da8e6",
+      "va": "0x560568e6",
+      "string": "HIGH"
+    },
+    {
+      "offset": "0x3da8f0",
+      "va": "0x560568f0",
+      "string": "FORCED FLASH ON"
+    },
+    {
+      "offset": "0x3da910",
+      "va": "0x56056910",
+      "string": "AUTO/RED-EYE"
+    },
+    {
+      "offset": "0x3da92a",
+      "va": "0x5605692a",
+      "string": "FORCED FLASH OFF"
+    },
+    {
+      "offset": "0x3da94c",
+      "va": "0x5605694c",
+      "string": "BURST ON"
+    },
+    {
+      "offset": "0x3da95e",
+      "va": "0x5605695e",
+      "string": "BURST OFF"
+    },
+    {
+      "offset": "0x3da972",
+      "va": "0x56056972",
+      "string": "BURST PROHIBITED"
+    },
+    {
+      "offset": "0x3da994",
+      "va": "0x56056994",
+      "string": "BACKLIGHT ON"
+    },
+    {
+      "offset": "0x3da9ae",
+      "va": "0x560569ae",
+      "string": "BACKLIGHT OFF"
+    },
+    {
+      "offset": "0x3da9ca",
+      "va": "0x560569ca",
+      "string": "10 SEC. SELF-TIMER"
+    },
+    {
+      "offset": "0x3da9f0",
+      "va": "0x560569f0",
+      "string": "POWER LCD ON"
+    },
+    {
+      "offset": "0x3daa0a",
+      "va": "0x56056a0a",
+      "string": "POWER LCD OFF"
+    },
+    {
+      "offset": "0x3daa26",
+      "va": "0x56056a26",
+      "string": "SCENE MODE"
+    },
+    {
+      "offset": "0x3daa3c",
+      "va": "0x56056a3c",
+      "string": "INFORMATION"
+    },
+    {
+      "offset": "0x3daae0",
+      "va": "0x56056ae0",
+      "string": "for best results."
+    },
+    {
+      "offset": "0x3daba0",
+      "va": "0x56056ba0",
+      "string": "pictures in bright daylight."
+    },
+    {
+      "offset": "0x3dac7e",
+      "va": "0x56056c7e",
+      "string": "infinity."
+    },
+    {
+      "offset": "0x3dad46",
+      "va": "0x56056d46",
+      "string": "a tripod."
+    },
+    {
+      "offset": "0x3dae06",
+      "va": "0x56056e06",
+      "string": "for at least 1 second."
+    },
+    {
+      "offset": "0x3daeca",
+      "va": "0x56056eca",
+      "string": "please use the viewfinder."
+    },
+    {
+      "offset": "0x3dafac",
+      "va": "0x56056fac",
+      "string": "Recommend using a tripod."
+    },
+    {
+      "offset": "0x3db086",
+      "va": "0x56057086",
+      "string": "source."
+    },
+    {
+      "offset": "0x3db144",
+      "va": "0x56057144",
+      "string": "as it actually looks."
+    },
+    {
+      "offset": "0x3db21c",
+      "va": "0x5605721c",
+      "string": "picture."
+    },
+    {
+      "offset": "0x3db2f6",
+      "va": "0x560572f6",
+      "string": "use a tripod."
+    },
+    {
+      "offset": "0x3db3cc",
+      "va": "0x560573cc",
+      "string": "more smooth."
+    },
+    {
+      "offset": "0x3db45a",
+      "va": "0x5605745a",
+      "string": "for the best result."
+    },
+    {
+      "offset": "0x3db53c",
+      "va": "0x5605753c",
+      "string": "tripod."
+    },
+    {
+      "offset": "0x3db600",
+      "va": "0x56057600",
+      "string": "the birthday."
+    },
+    {
+      "offset": "0x3db6c4",
+      "va": "0x560576c4",
+      "string": "when shooting indoors."
+    },
+    {
+      "offset": "0x3db7c0",
+      "va": "0x560577c0",
+      "string": "strong blue."
+    },
+    {
+      "offset": "0x3db868",
+      "va": "0x56057868",
+      "string": "under strong sunlight."
+    },
+    {
+      "offset": "0x3db92c",
+      "va": "0x5605792c",
+      "string": "when taking off or landing."
+    },
+    {
+      "offset": "0x3db964",
+      "va": "0x56057964",
+      "string": "WITH AGE"
+    },
+    {
+      "offset": "0x3db976",
+      "va": "0x56057976",
+      "string": "WITHOUT AGE"
+    },
+    {
+      "offset": "0x3db98e",
+      "va": "0x5605798e",
+      "string": "BIRTHDAY SET."
+    },
+    {
+      "offset": "0x3db9aa",
+      "va": "0x560579aa",
+      "string": "15 SEC."
+    },
+    {
+      "offset": "0x3db9ba",
+      "va": "0x560579ba",
+      "string": "30 SEC."
+    },
+    {
+      "offset": "0x3db9ca",
+      "va": "0x560579ca",
+      "string": "60 SEC."
+    },
+    {
+      "offset": "0x3db9da",
+      "va": "0x560579da",
+      "string": "year"
+    },
+    {
+      "offset": "0x3db9e4",
+      "va": "0x560579e4",
+      "string": "years"
+    },
+    {
+      "offset": "0x3db9f0",
+      "va": "0x560579f0",
+      "string": "month"
+    },
+    {
+      "offset": "0x3db9fc",
+      "va": "0x560579fc",
+      "string": "months"
+    },
+    {
+      "offset": "0x3dba0a",
+      "va": "0x56057a0a",
+      "string": "day"
+    },
+    {
+      "offset": "0x3dba12",
+      "va": "0x56057a12",
+      "string": "days"
+    },
+    {
+      "offset": "0x3dba1c",
+      "va": "0x56057a1c",
+      "string": "SINGLE PICTURE"
+    },
+    {
+      "offset": "0x3dba3a",
+      "va": "0x56057a3a",
+      "string": "DPOF PICTURE"
+    },
+    {
+      "offset": "0x3dba54",
+      "va": "0x56057a54",
+      "string": "PRINT START"
+    },
+    {
+      "offset": "0x3dba6c",
+      "va": "0x56057a6c",
+      "string": "PRINT WITH DATE"
+    },
+    {
+      "offset": "0x3dba8c",
+      "va": "0x56057a8c",
+      "string": "NUM.OF PRINTS"
+    },
+    {
+      "offset": "0x3dbaa8",
+      "va": "0x56057aa8",
+      "string": "PAPER SIZE"
+    },
+    {
+      "offset": "0x3dbabe",
+      "va": "0x56057abe",
+      "string": "PAGE LAYOUT"
+    },
+    {
+      "offset": "0x3dbad6",
+      "va": "0x56057ad6",
+      "string": "SINGLE PICTURE"
+    },
+    {
+      "offset": "0x3dbaf4",
+      "va": "0x56057af4",
+      "string": "DPOF PICTURE"
+    },
+    {
+      "offset": "0x3dbb0e",
+      "va": "0x56057b0e",
+      "string": "PLEASE CHECK THE PRINTER"
+    },
+    {
+      "offset": "0x3dbb5c",
+      "va": "0x56057b5c",
+      "string": "THE PICTURE TO PRINT"
+    },
+    {
+      "offset": "0x3dbb86",
+      "va": "0x56057b86",
+      "string": "CANCEL PRINTING"
+    }
+  ],
+  "carved_jpegs": [],
+  "trailer_hex": "18f8d9406631723fcc110b3b5c3c99af64c17a2d0e9b44d41d5fc6fe35f1e180"
+}

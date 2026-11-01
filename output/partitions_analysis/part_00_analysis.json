@@ -1,0 +1,15 @@
+{
+  "partition_index": 0,
+  "id": "part_00_bootloader",
+  "va_start": "0x55C7C000",
+  "va_end": "0x55C7D305",
+  "base_size": 4869,
+  "extension_size": 0,
+  "free_cave_bytes": 11515,
+  "sha256": "746164f8860bd48371116385a2884276d49bd88bb95db7c57bda84f8a721427d",
+  "rea_evidence_id": "ev_2a77ce06d889473bea4de5ee8738aefd66fba752dc805aac44ab907818a3f3da",
+  "initial_boot_target_va": "0x54080000",
+  "ram_copy_blocks": 3,
+  "mmio_access_count": 196,
+  "subroutines": 2
+}

@@ -1,0 +1,2487 @@
+{
+  "file": "/Users/wesleysalmi/source-me/tz5-rea/TZ5_a.bin",
+  "size": 5030946,
+  "sha256": "5f2e5ffd97d04722bee1eca61c363a87948d052747fde429806cb1105be28b96",
+  "md5": "a83c9d6392ee0a2b5310722cfa7eb1ec",
+  "overall_entropy": 6.1125,
+  "autocorrelation_coincidence": {
+    "4": 0.4103,
+    "8": 0.42122,
+    "12": 0.35559,
+    "16": 0.35604,
+    "32": 0.25759,
+    "64": 0.36292,
+    "128": 0.34981,
+    "256": 0.30257,
+    "512": 0.2405,
+    "1024": 0.31236,
+    "2048": 0.26009,
+    "4096": 0.20813
+  },
+  "windows": [
+    {
+      "offset": "0x000000",
+      "offset_int": 0,
+      "length": 16384,
+      "entropy": 2.8187,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.679
+    },
+    {
+      "offset": "0x004000",
+      "offset_int": 16384,
+      "length": 16384,
+      "entropy": 1.7714,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.8024
+    },
+    {
+      "offset": "0x008000",
+      "offset_int": 32768,
+      "length": 16384,
+      "entropy": 1.4254,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.7717
+    },
+    {
+      "offset": "0x00c000",
+      "offset_int": 49152,
+      "length": 16384,
+      "entropy": 0.7026,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.9401
+    },
+    {
+      "offset": "0x010000",
+      "offset_int": 65536,
+      "length": 16384,
+      "entropy": 3.6696,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5886
+    },
+    {
+      "offset": "0x014000",
+      "offset_int": 81920,
+      "length": 16384,
+      "entropy": 3.361,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6223
+    },
+    {
+      "offset": "0x018000",
+      "offset_int": 98304,
+      "length": 16384,
+      "entropy": 3.0782,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6415
+    },
+    {
+      "offset": "0x01c000",
+      "offset_int": 114688,
+      "length": 16384,
+      "entropy": 2.1332,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.7819
+    },
+    {
+      "offset": "0x020000",
+      "offset_int": 131072,
+      "length": 16384,
+      "entropy": 5.3177,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2994
+    },
+    {
+      "offset": "0x024000",
+      "offset_int": 147456,
+      "length": 16384,
+      "entropy": 6.7436,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.056
+    },
+    {
+      "offset": "0x028000",
+      "offset_int": 163840,
+      "length": 16384,
+      "entropy": 6.959,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0551
+    },
+    {
+      "offset": "0x02c000",
+      "offset_int": 180224,
+      "length": 16384,
+      "entropy": 6.9023,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0381
+    },
+    {
+      "offset": "0x030000",
+      "offset_int": 196608,
+      "length": 16384,
+      "entropy": 6.9659,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0625
+    },
+    {
+      "offset": "0x034000",
+      "offset_int": 212992,
+      "length": 16384,
+      "entropy": 5.9475,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3107
+    },
+    {
+      "offset": "0x038000",
+      "offset_int": 229376,
+      "length": 16384,
+      "entropy": 6.4233,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.178
+    },
+    {
+      "offset": "0x03c000",
+      "offset_int": 245760,
+      "length": 16384,
+      "entropy": 6.3709,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2438
+    },
+    {
+      "offset": "0x040000",
+      "offset_int": 262144,
+      "length": 16384,
+      "entropy": 6.7083,
+      "top_byte": "0x01",
+      "top_byte_ratio": 0.0681
+    },
+    {
+      "offset": "0x044000",
+      "offset_int": 278528,
+      "length": 16384,
+      "entropy": 6.4013,
+      "top_byte": "0x01",
+      "top_byte_ratio": 0.0833
+    },
+    {
+      "offset": "0x048000",
+      "offset_int": 294912,
+      "length": 16384,
+      "entropy": 6.569,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0912
+    },
+    {
+      "offset": "0x04c000",
+      "offset_int": 311296,
+      "length": 16384,
+      "entropy": 6.2227,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1133
+    },
+    {
+      "offset": "0x050000",
+      "offset_int": 327680,
+      "length": 16384,
+      "entropy": 6.2892,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1023
+    },
+    {
+      "offset": "0x054000",
+      "offset_int": 344064,
+      "length": 16384,
+      "entropy": 6.0797,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1378
+    },
+    {
+      "offset": "0x058000",
+      "offset_int": 360448,
+      "length": 16384,
+      "entropy": 6.2239,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0893
+    },
+    {
+      "offset": "0x05c000",
+      "offset_int": 376832,
+      "length": 16384,
+      "entropy": 5.9071,
+      "top_byte": "0x02",
+      "top_byte_ratio": 0.0861
+    },
+    {
+      "offset": "0x060000",
+      "offset_int": 393216,
+      "length": 16384,
+      "entropy": 6.3997,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.087
+    },
+    {
+      "offset": "0x064000",
+      "offset_int": 409600,
+      "length": 16384,
+      "entropy": 6.3535,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0876
+    },
+    {
+      "offset": "0x068000",
+      "offset_int": 425984,
+      "length": 16384,
+      "entropy": 6.3241,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0793
+    },
+    {
+      "offset": "0x06c000",
+      "offset_int": 442368,
+      "length": 16384,
+      "entropy": 6.3792,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.075
+    },
+    {
+      "offset": "0x070000",
+      "offset_int": 458752,
+      "length": 16384,
+      "entropy": 6.609,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0738
+    },
+    {
+      "offset": "0x074000",
+      "offset_int": 475136,
+      "length": 16384,
+      "entropy": 6.471,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0939
+    },
+    {
+      "offset": "0x078000",
+      "offset_int": 491520,
+      "length": 16384,
+      "entropy": 6.3308,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0887
+    },
+    {
+      "offset": "0x07c000",
+      "offset_int": 507904,
+      "length": 16384,
+      "entropy": 6.4354,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0841
+    },
+    {
+      "offset": "0x080000",
+      "offset_int": 524288,
+      "length": 16384,
+      "entropy": 6.443,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.075
+    },
+    {
+      "offset": "0x084000",
+      "offset_int": 540672,
+      "length": 16384,
+      "entropy": 6.3061,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0867
+    },
+    {
+      "offset": "0x088000",
+      "offset_int": 557056,
+      "length": 16384,
+      "entropy": 6.3629,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0823
+    },
+    {
+      "offset": "0x08c000",
+      "offset_int": 573440,
+      "length": 16384,
+      "entropy": 6.4553,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0735
+    },
+    {
+      "offset": "0x090000",
+      "offset_int": 589824,
+      "length": 16384,
+      "entropy": 6.2063,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0803
+    },
+    {
+      "offset": "0x094000",
+      "offset_int": 606208,
+      "length": 16384,
+      "entropy": 6.6196,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0514
+    },
+    {
+      "offset": "0x098000",
+      "offset_int": 622592,
+      "length": 16384,
+      "entropy": 6.6912,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0549
+    },
+    {
+      "offset": "0x09c000",
+      "offset_int": 638976,
+      "length": 16384,
+      "entropy": 6.3818,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0903
+    },
+    {
+      "offset": "0x0a0000",
+      "offset_int": 655360,
+      "length": 16384,
+      "entropy": 6.4656,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.074
+    },
+    {
+      "offset": "0x0a4000",
+      "offset_int": 671744,
+      "length": 16384,
+      "entropy": 6.4397,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.082
+    },
+    {
+      "offset": "0x0a8000",
+      "offset_int": 688128,
+      "length": 16384,
+      "entropy": 6.6288,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0619
+    },
+    {
+      "offset": "0x0ac000",
+      "offset_int": 704512,
+      "length": 16384,
+      "entropy": 6.6711,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0895
+    },
+    {
+      "offset": "0x0b0000",
+      "offset_int": 720896,
+      "length": 16384,
+      "entropy": 6.7066,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0687
+    },
+    {
+      "offset": "0x0b4000",
+      "offset_int": 737280,
+      "length": 16384,
+      "entropy": 6.8266,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0632
+    },
+    {
+      "offset": "0x0b8000",
+      "offset_int": 753664,
+      "length": 16384,
+      "entropy": 6.8589,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0607
+    },
+    {
+      "offset": "0x0bc000",
+      "offset_int": 770048,
+      "length": 16384,
+      "entropy": 6.6368,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.083
+    },
+    {
+      "offset": "0x0c0000",
+      "offset_int": 786432,
+      "length": 16384,
+      "entropy": 6.5998,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0691
+    },
+    {
+      "offset": "0x0c4000",
+      "offset_int": 802816,
+      "length": 16384,
+      "entropy": 6.5122,
+      "top_byte": "0x54",
+      "top_byte_ratio": 0.0834
+    },
+    {
+      "offset": "0x0c8000",
+      "offset_int": 819200,
+      "length": 16384,
+      "entropy": 6.6519,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0629
+    },
+    {
+      "offset": "0x0cc000",
+      "offset_int": 835584,
+      "length": 16384,
+      "entropy": 6.6718,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0634
+    },
+    {
+      "offset": "0x0d0000",
+      "offset_int": 851968,
+      "length": 16384,
+      "entropy": 6.7021,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0668
+    },
+    {
+      "offset": "0x0d4000",
+      "offset_int": 868352,
+      "length": 16384,
+      "entropy": 6.7224,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0609
+    },
+    {
+      "offset": "0x0d8000",
+      "offset_int": 884736,
+      "length": 16384,
+      "entropy": 6.632,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0655
+    },
+    {
+      "offset": "0x0dc000",
+      "offset_int": 901120,
+      "length": 16384,
+      "entropy": 6.7727,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0819
+    },
+    {
+      "offset": "0x0e0000",
+      "offset_int": 917504,
+      "length": 16384,
+      "entropy": 6.8173,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0777
+    },
+    {
+      "offset": "0x0e4000",
+      "offset_int": 933888,
+      "length": 16384,
+      "entropy": 6.9591,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0546
+    },
+    {
+      "offset": "0x0e8000",
+      "offset_int": 950272,
+      "length": 16384,
+      "entropy": 6.898,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0831
+    },
+    {
+      "offset": "0x0ec000",
+      "offset_int": 966656,
+      "length": 16384,
+      "entropy": 6.7481,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0997
+    },
+    {
+      "offset": "0x0f0000",
+      "offset_int": 983040,
+      "length": 16384,
+      "entropy": 6.5072,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1448
+    },
+    {
+      "offset": "0x0f4000",
+      "offset_int": 999424,
+      "length": 16384,
+      "entropy": 6.6327,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1348
+    },
+    {
+      "offset": "0x0f8000",
+      "offset_int": 1015808,
+      "length": 16384,
+      "entropy": 6.7062,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.11
+    },
+    {
+      "offset": "0x0fc000",
+      "offset_int": 1032192,
+      "length": 16384,
+      "entropy": 6.992,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0566
+    },
+    {
+      "offset": "0x100000",
+      "offset_int": 1048576,
+      "length": 16384,
+      "entropy": 6.9241,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0579
+    },
+    {
+      "offset": "0x104000",
+      "offset_int": 1064960,
+      "length": 16384,
+      "entropy": 6.6476,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1146
+    },
+    {
+      "offset": "0x108000",
+      "offset_int": 1081344,
+      "length": 16384,
+      "entropy": 6.9389,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0649
+    },
+    {
+      "offset": "0x10c000",
+      "offset_int": 1097728,
+      "length": 16384,
+      "entropy": 6.8604,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.0551
+    },
+    {
+      "offset": "0x110000",
+      "offset_int": 1114112,
+      "length": 16384,
+      "entropy": 6.9965,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0421
+    },
+    {
+      "offset": "0x114000",
+      "offset_int": 1130496,
+      "length": 16384,
+      "entropy": 7.0851,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0457
+    },
+    {
+      "offset": "0x118000",
+      "offset_int": 1146880,
+      "length": 16384,
+      "entropy": 6.7195,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.085
+    },
+    {
+      "offset": "0x11c000",
+      "offset_int": 1163264,
+      "length": 16384,
+      "entropy": 6.7201,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0871
+    },
+    {
+      "offset": "0x120000",
+      "offset_int": 1179648,
+      "length": 16384,
+      "entropy": 6.6649,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.116
+    },
+    {
+      "offset": "0x124000",
+      "offset_int": 1196032,
+      "length": 16384,
+      "entropy": 6.8649,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0847
+    },
+    {
+      "offset": "0x128000",
+      "offset_int": 1212416,
+      "length": 16384,
+      "entropy": 6.881,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0555
+    },
+    {
+      "offset": "0x12c000",
+      "offset_int": 1228800,
+      "length": 16384,
+      "entropy": 6.9037,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0711
+    },
+    {
+      "offset": "0x130000",
+      "offset_int": 1245184,
+      "length": 16384,
+      "entropy": 6.7417,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.105
+    },
+    {
+      "offset": "0x134000",
+      "offset_int": 1261568,
+      "length": 16384,
+      "entropy": 6.8226,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0793
+    },
+    {
+      "offset": "0x138000",
+      "offset_int": 1277952,
+      "length": 16384,
+      "entropy": 6.9231,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0777
+    },
+    {
+      "offset": "0x13c000",
+      "offset_int": 1294336,
+      "length": 16384,
+      "entropy": 6.976,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0566
+    },
+    {
+      "offset": "0x140000",
+      "offset_int": 1310720,
+      "length": 16384,
+      "entropy": 6.7933,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0824
+    },
+    {
+      "offset": "0x144000",
+      "offset_int": 1327104,
+      "length": 16384,
+      "entropy": 6.8971,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0646
+    },
+    {
+      "offset": "0x148000",
+      "offset_int": 1343488,
+      "length": 16384,
+      "entropy": 6.5392,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0734
+    },
+    {
+      "offset": "0x14c000",
+      "offset_int": 1359872,
+      "length": 16384,
+      "entropy": 6.6274,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0695
+    },
+    {
+      "offset": "0x150000",
+      "offset_int": 1376256,
+      "length": 16384,
+      "entropy": 6.9635,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0604
+    },
+    {
+      "offset": "0x154000",
+      "offset_int": 1392640,
+      "length": 16384,
+      "entropy": 6.3246,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0858
+    },
+    {
+      "offset": "0x158000",
+      "offset_int": 1409024,
+      "length": 16384,
+      "entropy": 6.6153,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0794
+    },
+    {
+      "offset": "0x15c000",
+      "offset_int": 1425408,
+      "length": 16384,
+      "entropy": 6.8579,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0608
+    },
+    {
+      "offset": "0x160000",
+      "offset_int": 1441792,
+      "length": 16384,
+      "entropy": 6.7214,
+      "top_byte": "0x54",
+      "top_byte_ratio": 0.0711
+    },
+    {
+      "offset": "0x164000",
+      "offset_int": 1458176,
+      "length": 16384,
+      "entropy": 6.8137,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0638
+    },
+    {
+      "offset": "0x168000",
+      "offset_int": 1474560,
+      "length": 16384,
+      "entropy": 6.6204,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0747
+    },
+    {
+      "offset": "0x16c000",
+      "offset_int": 1490944,
+      "length": 16384,
+      "entropy": 6.7235,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0762
+    },
+    {
+      "offset": "0x170000",
+      "offset_int": 1507328,
+      "length": 16384,
+      "entropy": 6.7014,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0779
+    },
+    {
+      "offset": "0x174000",
+      "offset_int": 1523712,
+      "length": 16384,
+      "entropy": 6.7225,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0642
+    },
+    {
+      "offset": "0x178000",
+      "offset_int": 1540096,
+      "length": 16384,
+      "entropy": 6.6944,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0673
+    },
+    {
+      "offset": "0x17c000",
+      "offset_int": 1556480,
+      "length": 16384,
+      "entropy": 6.4443,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0881
+    },
+    {
+      "offset": "0x180000",
+      "offset_int": 1572864,
+      "length": 16384,
+      "entropy": 6.5881,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0833
+    },
+    {
+      "offset": "0x184000",
+      "offset_int": 1589248,
+      "length": 16384,
+      "entropy": 6.8983,
+      "top_byte": "0xf8",
+      "top_byte_ratio": 0.0634
+    },
+    {
+      "offset": "0x188000",
+      "offset_int": 1605632,
+      "length": 16384,
+      "entropy": 6.687,
+      "top_byte": "0x54",
+      "top_byte_ratio": 0.0759
+    },
+    {
+      "offset": "0x18c000",
+      "offset_int": 1622016,
+      "length": 16384,
+      "entropy": 6.6538,
+      "top_byte": "0x54",
+      "top_byte_ratio": 0.0774
+    },
+    {
+      "offset": "0x190000",
+      "offset_int": 1638400,
+      "length": 16384,
+      "entropy": 6.743,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0693
+    },
+    {
+      "offset": "0x194000",
+      "offset_int": 1654784,
+      "length": 16384,
+      "entropy": 6.8256,
+      "top_byte": "0x54",
+      "top_byte_ratio": 0.0663
+    },
+    {
+      "offset": "0x198000",
+      "offset_int": 1671168,
+      "length": 16384,
+      "entropy": 6.6388,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0779
+    },
+    {
+      "offset": "0x19c000",
+      "offset_int": 1687552,
+      "length": 16384,
+      "entropy": 6.5546,
+      "top_byte": "0x54",
+      "top_byte_ratio": 0.08
+    },
+    {
+      "offset": "0x1a0000",
+      "offset_int": 1703936,
+      "length": 16384,
+      "entropy": 6.6095,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.059
+    },
+    {
+      "offset": "0x1a4000",
+      "offset_int": 1720320,
+      "length": 16384,
+      "entropy": 6.6876,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0673
+    },
+    {
+      "offset": "0x1a8000",
+      "offset_int": 1736704,
+      "length": 16384,
+      "entropy": 6.7242,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0765
+    },
+    {
+      "offset": "0x1ac000",
+      "offset_int": 1753088,
+      "length": 16384,
+      "entropy": 6.788,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0629
+    },
+    {
+      "offset": "0x1b0000",
+      "offset_int": 1769472,
+      "length": 16384,
+      "entropy": 6.7574,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.053
+    },
+    {
+      "offset": "0x1b4000",
+      "offset_int": 1785856,
+      "length": 16384,
+      "entropy": 6.5738,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0671
+    },
+    {
+      "offset": "0x1b8000",
+      "offset_int": 1802240,
+      "length": 16384,
+      "entropy": 6.7362,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0569
+    },
+    {
+      "offset": "0x1bc000",
+      "offset_int": 1818624,
+      "length": 16384,
+      "entropy": 6.9575,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0676
+    },
+    {
+      "offset": "0x1c0000",
+      "offset_int": 1835008,
+      "length": 16384,
+      "entropy": 6.893,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0645
+    },
+    {
+      "offset": "0x1c4000",
+      "offset_int": 1851392,
+      "length": 16384,
+      "entropy": 7.0573,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0469
+    },
+    {
+      "offset": "0x1c8000",
+      "offset_int": 1867776,
+      "length": 16384,
+      "entropy": 6.9411,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0575
+    },
+    {
+      "offset": "0x1cc000",
+      "offset_int": 1884160,
+      "length": 16384,
+      "entropy": 6.8117,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.078
+    },
+    {
+      "offset": "0x1d0000",
+      "offset_int": 1900544,
+      "length": 16384,
+      "entropy": 6.7618,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0795
+    },
+    {
+      "offset": "0x1d4000",
+      "offset_int": 1916928,
+      "length": 16384,
+      "entropy": 6.5779,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0727
+    },
+    {
+      "offset": "0x1d8000",
+      "offset_int": 1933312,
+      "length": 16384,
+      "entropy": 6.6246,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0727
+    },
+    {
+      "offset": "0x1dc000",
+      "offset_int": 1949696,
+      "length": 16384,
+      "entropy": 6.7481,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.0709
+    },
+    {
+      "offset": "0x1e0000",
+      "offset_int": 1966080,
+      "length": 16384,
+      "entropy": 6.9924,
+      "top_byte": "0xf8",
+      "top_byte_ratio": 0.051
+    },
+    {
+      "offset": "0x1e4000",
+      "offset_int": 1982464,
+      "length": 16384,
+      "entropy": 6.5276,
+      "top_byte": "0xfc",
+      "top_byte_ratio": 0.0745
+    },
+    {
+      "offset": "0x1e8000",
+      "offset_int": 1998848,
+      "length": 16384,
+      "entropy": 6.9632,
+      "top_byte": "0xf8",
+      "top_byte_ratio": 0.0657
+    },
+    {
+      "offset": "0x1ec000",
+      "offset_int": 2015232,
+      "length": 16384,
+      "entropy": 6.5913,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.106
+    },
+    {
+      "offset": "0x1f0000",
+      "offset_int": 2031616,
+      "length": 16384,
+      "entropy": 4.0026,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4838
+    },
+    {
+      "offset": "0x1f4000",
+      "offset_int": 2048000,
+      "length": 16384,
+      "entropy": 5.6472,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1959
+    },
+    {
+      "offset": "0x1f8000",
+      "offset_int": 2064384,
+      "length": 16384,
+      "entropy": 5.071,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3005
+    },
+    {
+      "offset": "0x1fc000",
+      "offset_int": 2080768,
+      "length": 16384,
+      "entropy": 5.2326,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1751
+    },
+    {
+      "offset": "0x200000",
+      "offset_int": 2097152,
+      "length": 16384,
+      "entropy": 5.363,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2183
+    },
+    {
+      "offset": "0x204000",
+      "offset_int": 2113536,
+      "length": 16384,
+      "entropy": 5.3976,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.337
+    },
+    {
+      "offset": "0x208000",
+      "offset_int": 2129920,
+      "length": 16384,
+      "entropy": 4.7771,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3959
+    },
+    {
+      "offset": "0x20c000",
+      "offset_int": 2146304,
+      "length": 16384,
+      "entropy": 5.0055,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4018
+    },
+    {
+      "offset": "0x210000",
+      "offset_int": 2162688,
+      "length": 16384,
+      "entropy": 5.1387,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3674
+    },
+    {
+      "offset": "0x214000",
+      "offset_int": 2179072,
+      "length": 16384,
+      "entropy": 5.7086,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.251
+    },
+    {
+      "offset": "0x218000",
+      "offset_int": 2195456,
+      "length": 16384,
+      "entropy": 5.15,
+      "top_byte": "0x05",
+      "top_byte_ratio": 0.2008
+    },
+    {
+      "offset": "0x21c000",
+      "offset_int": 2211840,
+      "length": 16384,
+      "entropy": 5.7908,
+      "top_byte": "0x05",
+      "top_byte_ratio": 0.2034
+    },
+    {
+      "offset": "0x220000",
+      "offset_int": 2228224,
+      "length": 16384,
+      "entropy": 6.0824,
+      "top_byte": "0x08",
+      "top_byte_ratio": 0.0927
+    },
+    {
+      "offset": "0x224000",
+      "offset_int": 2244608,
+      "length": 16384,
+      "entropy": 5.6408,
+      "top_byte": "0x05",
+      "top_byte_ratio": 0.218
+    },
+    {
+      "offset": "0x228000",
+      "offset_int": 2260992,
+      "length": 16384,
+      "entropy": 5.629,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1785
+    },
+    {
+      "offset": "0x22c000",
+      "offset_int": 2277376,
+      "length": 16384,
+      "entropy": 5.9738,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2204
+    },
+    {
+      "offset": "0x230000",
+      "offset_int": 2293760,
+      "length": 16384,
+      "entropy": 6.4327,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1799
+    },
+    {
+      "offset": "0x234000",
+      "offset_int": 2310144,
+      "length": 16384,
+      "entropy": 6.2641,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1569
+    },
+    {
+      "offset": "0x238000",
+      "offset_int": 2326528,
+      "length": 16384,
+      "entropy": 5.3253,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3106
+    },
+    {
+      "offset": "0x23c000",
+      "offset_int": 2342912,
+      "length": 16384,
+      "entropy": 6.6566,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1308
+    },
+    {
+      "offset": "0x240000",
+      "offset_int": 2359296,
+      "length": 16384,
+      "entropy": 2.7121,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.6578
+    },
+    {
+      "offset": "0x244000",
+      "offset_int": 2375680,
+      "length": 16384,
+      "entropy": 3.5257,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.5298
+    },
+    {
+      "offset": "0x248000",
+      "offset_int": 2392064,
+      "length": 16384,
+      "entropy": 2.8017,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5374
+    },
+    {
+      "offset": "0x24c000",
+      "offset_int": 2408448,
+      "length": 16384,
+      "entropy": 2.5461,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6365
+    },
+    {
+      "offset": "0x250000",
+      "offset_int": 2424832,
+      "length": 16384,
+      "entropy": 1.5806,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.8123
+    },
+    {
+      "offset": "0x254000",
+      "offset_int": 2441216,
+      "length": 16384,
+      "entropy": 2.8096,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5314
+    },
+    {
+      "offset": "0x258000",
+      "offset_int": 2457600,
+      "length": 16384,
+      "entropy": 3.1237,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4116
+    },
+    {
+      "offset": "0x25c000",
+      "offset_int": 2473984,
+      "length": 16384,
+      "entropy": 3.2636,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5424
+    },
+    {
+      "offset": "0x260000",
+      "offset_int": 2490368,
+      "length": 16384,
+      "entropy": 2.9486,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.582
+    },
+    {
+      "offset": "0x264000",
+      "offset_int": 2506752,
+      "length": 16384,
+      "entropy": 3.0805,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4568
+    },
+    {
+      "offset": "0x268000",
+      "offset_int": 2523136,
+      "length": 16384,
+      "entropy": 3.0657,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4565
+    },
+    {
+      "offset": "0x26c000",
+      "offset_int": 2539520,
+      "length": 16384,
+      "entropy": 5.0674,
+      "top_byte": "0x32",
+      "top_byte_ratio": 0.1227
+    },
+    {
+      "offset": "0x270000",
+      "offset_int": 2555904,
+      "length": 16384,
+      "entropy": 3.4817,
+      "top_byte": "0x01",
+      "top_byte_ratio": 0.5535
+    },
+    {
+      "offset": "0x274000",
+      "offset_int": 2572288,
+      "length": 16384,
+      "entropy": 2.9264,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4686
+    },
+    {
+      "offset": "0x278000",
+      "offset_int": 2588672,
+      "length": 16384,
+      "entropy": 2.7885,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6333
+    },
+    {
+      "offset": "0x27c000",
+      "offset_int": 2605056,
+      "length": 16384,
+      "entropy": 2.3568,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6616
+    },
+    {
+      "offset": "0x280000",
+      "offset_int": 2621440,
+      "length": 16384,
+      "entropy": 2.8026,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5848
+    },
+    {
+      "offset": "0x284000",
+      "offset_int": 2637824,
+      "length": 16384,
+      "entropy": 2.0809,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.7477
+    },
+    {
+      "offset": "0x288000",
+      "offset_int": 2654208,
+      "length": 16384,
+      "entropy": 2.3266,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6809
+    },
+    {
+      "offset": "0x28c000",
+      "offset_int": 2670592,
+      "length": 16384,
+      "entropy": 3.9074,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3085
+    },
+    {
+      "offset": "0x290000",
+      "offset_int": 2686976,
+      "length": 16384,
+      "entropy": 4.4128,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.167
+    },
+    {
+      "offset": "0x294000",
+      "offset_int": 2703360,
+      "length": 16384,
+      "entropy": 3.6405,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4241
+    },
+    {
+      "offset": "0x298000",
+      "offset_int": 2719744,
+      "length": 16384,
+      "entropy": 4.1604,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2913
+    },
+    {
+      "offset": "0x29c000",
+      "offset_int": 2736128,
+      "length": 16384,
+      "entropy": 3.1155,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6172
+    },
+    {
+      "offset": "0x2a0000",
+      "offset_int": 2752512,
+      "length": 16384,
+      "entropy": 3.69,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5784
+    },
+    {
+      "offset": "0x2a4000",
+      "offset_int": 2768896,
+      "length": 16384,
+      "entropy": 4.3656,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4598
+    },
+    {
+      "offset": "0x2a8000",
+      "offset_int": 2785280,
+      "length": 16384,
+      "entropy": 4.1808,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4699
+    },
+    {
+      "offset": "0x2ac000",
+      "offset_int": 2801664,
+      "length": 16384,
+      "entropy": 2.4182,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4756
+    },
+    {
+      "offset": "0x2b0000",
+      "offset_int": 2818048,
+      "length": 16384,
+      "entropy": 2.8968,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4948
+    },
+    {
+      "offset": "0x2b4000",
+      "offset_int": 2834432,
+      "length": 16384,
+      "entropy": 2.4921,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5378
+    },
+    {
+      "offset": "0x2b8000",
+      "offset_int": 2850816,
+      "length": 16384,
+      "entropy": 1.7363,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6823
+    },
+    {
+      "offset": "0x2bc000",
+      "offset_int": 2867200,
+      "length": 16384,
+      "entropy": 4.5153,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4174
+    },
+    {
+      "offset": "0x2c0000",
+      "offset_int": 2883584,
+      "length": 16384,
+      "entropy": 4.2033,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4228
+    },
+    {
+      "offset": "0x2c4000",
+      "offset_int": 2899968,
+      "length": 16384,
+      "entropy": 3.6061,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5837
+    },
+    {
+      "offset": "0x2c8000",
+      "offset_int": 2916352,
+      "length": 16384,
+      "entropy": 1.41,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.8459
+    },
+    {
+      "offset": "0x2cc000",
+      "offset_int": 2932736,
+      "length": 16384,
+      "entropy": 0.8506,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.9152
+    },
+    {
+      "offset": "0x2d0000",
+      "offset_int": 2949120,
+      "length": 16384,
+      "entropy": 2.8677,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6265
+    },
+    {
+      "offset": "0x2d4000",
+      "offset_int": 2965504,
+      "length": 16384,
+      "entropy": 4.0006,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5264
+    },
+    {
+      "offset": "0x2d8000",
+      "offset_int": 2981888,
+      "length": 16384,
+      "entropy": 3.5261,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4872
+    },
+    {
+      "offset": "0x2dc000",
+      "offset_int": 2998272,
+      "length": 16384,
+      "entropy": 2.1493,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.673
+    },
+    {
+      "offset": "0x2e0000",
+      "offset_int": 3014656,
+      "length": 16384,
+      "entropy": 2.3181,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6266
+    },
+    {
+      "offset": "0x2e4000",
+      "offset_int": 3031040,
+      "length": 16384,
+      "entropy": 2.356,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.641
+    },
+    {
+      "offset": "0x2e8000",
+      "offset_int": 3047424,
+      "length": 16384,
+      "entropy": 2.639,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5842
+    },
+    {
+      "offset": "0x2ec000",
+      "offset_int": 3063808,
+      "length": 16384,
+      "entropy": 3.3673,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5289
+    },
+    {
+      "offset": "0x2f0000",
+      "offset_int": 3080192,
+      "length": 16384,
+      "entropy": 3.3864,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4985
+    },
+    {
+      "offset": "0x2f4000",
+      "offset_int": 3096576,
+      "length": 16384,
+      "entropy": 3.6958,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4607
+    },
+    {
+      "offset": "0x2f8000",
+      "offset_int": 3112960,
+      "length": 16384,
+      "entropy": 2.9026,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.6686
+    },
+    {
+      "offset": "0x2fc000",
+      "offset_int": 3129344,
+      "length": 16384,
+      "entropy": 3.5749,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.5287
+    },
+    {
+      "offset": "0x300000",
+      "offset_int": 3145728,
+      "length": 16384,
+      "entropy": 4.3443,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4841
+    },
+    {
+      "offset": "0x304000",
+      "offset_int": 3162112,
+      "length": 16384,
+      "entropy": 4.8154,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3951
+    },
+    {
+      "offset": "0x308000",
+      "offset_int": 3178496,
+      "length": 16384,
+      "entropy": 5.5625,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3185
+    },
+    {
+      "offset": "0x30c000",
+      "offset_int": 3194880,
+      "length": 16384,
+      "entropy": 4.1439,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4951
+    },
+    {
+      "offset": "0x310000",
+      "offset_int": 3211264,
+      "length": 16384,
+      "entropy": 5.6635,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2995
+    },
+    {
+      "offset": "0x314000",
+      "offset_int": 3227648,
+      "length": 16384,
+      "entropy": 5.0004,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3729
+    },
+    {
+      "offset": "0x318000",
+      "offset_int": 3244032,
+      "length": 16384,
+      "entropy": 5.5026,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3346
+    },
+    {
+      "offset": "0x31c000",
+      "offset_int": 3260416,
+      "length": 16384,
+      "entropy": 5.1565,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3566
+    },
+    {
+      "offset": "0x320000",
+      "offset_int": 3276800,
+      "length": 16384,
+      "entropy": 4.9253,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4245
+    },
+    {
+      "offset": "0x324000",
+      "offset_int": 3293184,
+      "length": 16384,
+      "entropy": 3.7695,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4739
+    },
+    {
+      "offset": "0x328000",
+      "offset_int": 3309568,
+      "length": 16384,
+      "entropy": 5.2827,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.332
+    },
+    {
+      "offset": "0x32c000",
+      "offset_int": 3325952,
+      "length": 16384,
+      "entropy": 5.7677,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2225
+    },
+    {
+      "offset": "0x330000",
+      "offset_int": 3342336,
+      "length": 16384,
+      "entropy": 4.2682,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4174
+    },
+    {
+      "offset": "0x334000",
+      "offset_int": 3358720,
+      "length": 16384,
+      "entropy": 4.9159,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3304
+    },
+    {
+      "offset": "0x338000",
+      "offset_int": 3375104,
+      "length": 16384,
+      "entropy": 6.4279,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.144
+    },
+    {
+      "offset": "0x33c000",
+      "offset_int": 3391488,
+      "length": 16384,
+      "entropy": 6.2422,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1865
+    },
+    {
+      "offset": "0x340000",
+      "offset_int": 3407872,
+      "length": 16384,
+      "entropy": 5.3497,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2184
+    },
+    {
+      "offset": "0x344000",
+      "offset_int": 3424256,
+      "length": 16384,
+      "entropy": 5.4384,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2301
+    },
+    {
+      "offset": "0x348000",
+      "offset_int": 3440640,
+      "length": 16384,
+      "entropy": 4.3406,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3129
+    },
+    {
+      "offset": "0x34c000",
+      "offset_int": 3457024,
+      "length": 16384,
+      "entropy": 4.3251,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3546
+    },
+    {
+      "offset": "0x350000",
+      "offset_int": 3473408,
+      "length": 16384,
+      "entropy": 1.6036,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.7037
+    },
+    {
+      "offset": "0x354000",
+      "offset_int": 3489792,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x358000",
+      "offset_int": 3506176,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x35c000",
+      "offset_int": 3522560,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x360000",
+      "offset_int": 3538944,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x364000",
+      "offset_int": 3555328,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x368000",
+      "offset_int": 3571712,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x36c000",
+      "offset_int": 3588096,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x370000",
+      "offset_int": 3604480,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x374000",
+      "offset_int": 3620864,
+      "length": 16384,
+      "entropy": 0.381,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9413
+    },
+    {
+      "offset": "0x378000",
+      "offset_int": 3637248,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x37c000",
+      "offset_int": 3653632,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x380000",
+      "offset_int": 3670016,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x384000",
+      "offset_int": 3686400,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x388000",
+      "offset_int": 3702784,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x38c000",
+      "offset_int": 3719168,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x390000",
+      "offset_int": 3735552,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x394000",
+      "offset_int": 3751936,
+      "length": 16384,
+      "entropy": 0.381,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9413
+    },
+    {
+      "offset": "0x398000",
+      "offset_int": 3768320,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x39c000",
+      "offset_int": 3784704,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x3a0000",
+      "offset_int": 3801088,
+      "length": 16384,
+      "entropy": 0.3862,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9409
+    },
+    {
+      "offset": "0x3a4000",
+      "offset_int": 3817472,
+      "length": 16384,
+      "entropy": 0.3817,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9412
+    },
+    {
+      "offset": "0x3a8000",
+      "offset_int": 3833856,
+      "length": 16384,
+      "entropy": 0.8988,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.7646
+    },
+    {
+      "offset": "0x3ac000",
+      "offset_int": 3850240,
+      "length": 16384,
+      "entropy": -0.0,
+      "top_byte": "0x00",
+      "top_byte_ratio": 1.0
+    },
+    {
+      "offset": "0x3b0000",
+      "offset_int": 3866624,
+      "length": 16384,
+      "entropy": -0.0,
+      "top_byte": "0x00",
+      "top_byte_ratio": 1.0
+    },
+    {
+      "offset": "0x3b4000",
+      "offset_int": 3883008,
+      "length": 16384,
+      "entropy": -0.0,
+      "top_byte": "0x00",
+      "top_byte_ratio": 1.0
+    },
+    {
+      "offset": "0x3b8000",
+      "offset_int": 3899392,
+      "length": 16384,
+      "entropy": -0.0,
+      "top_byte": "0x00",
+      "top_byte_ratio": 1.0
+    },
+    {
+      "offset": "0x3bc000",
+      "offset_int": 3915776,
+      "length": 16384,
+      "entropy": 5.8013,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1545
+    },
+    {
+      "offset": "0x3c0000",
+      "offset_int": 3932160,
+      "length": 16384,
+      "entropy": 5.8965,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1684
+    },
+    {
+      "offset": "0x3c4000",
+      "offset_int": 3948544,
+      "length": 16384,
+      "entropy": 5.7823,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.191
+    },
+    {
+      "offset": "0x3c8000",
+      "offset_int": 3964928,
+      "length": 16384,
+      "entropy": 5.6883,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1917
+    },
+    {
+      "offset": "0x3cc000",
+      "offset_int": 3981312,
+      "length": 16384,
+      "entropy": 5.7313,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1908
+    },
+    {
+      "offset": "0x3d0000",
+      "offset_int": 3997696,
+      "length": 16384,
+      "entropy": 5.7728,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1832
+    },
+    {
+      "offset": "0x3d4000",
+      "offset_int": 4014080,
+      "length": 16384,
+      "entropy": 5.963,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1553
+    },
+    {
+      "offset": "0x3d8000",
+      "offset_int": 4030464,
+      "length": 16384,
+      "entropy": 5.756,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1907
+    },
+    {
+      "offset": "0x3dc000",
+      "offset_int": 4046848,
+      "length": 16384,
+      "entropy": 5.7707,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1909
+    },
+    {
+      "offset": "0x3e0000",
+      "offset_int": 4063232,
+      "length": 16384,
+      "entropy": 5.6735,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1913
+    },
+    {
+      "offset": "0x3e4000",
+      "offset_int": 4079616,
+      "length": 16384,
+      "entropy": 5.7336,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1909
+    },
+    {
+      "offset": "0x3e8000",
+      "offset_int": 4096000,
+      "length": 16384,
+      "entropy": 5.8256,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1617
+    },
+    {
+      "offset": "0x3ec000",
+      "offset_int": 4112384,
+      "length": 16384,
+      "entropy": 5.8841,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1763
+    },
+    {
+      "offset": "0x3f0000",
+      "offset_int": 4128768,
+      "length": 16384,
+      "entropy": 5.7152,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1913
+    },
+    {
+      "offset": "0x3f4000",
+      "offset_int": 4145152,
+      "length": 16384,
+      "entropy": 5.7039,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.191
+    },
+    {
+      "offset": "0x3f8000",
+      "offset_int": 4161536,
+      "length": 16384,
+      "entropy": 5.6888,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1909
+    },
+    {
+      "offset": "0x3fc000",
+      "offset_int": 4177920,
+      "length": 16384,
+      "entropy": 5.8007,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.176
+    },
+    {
+      "offset": "0x400000",
+      "offset_int": 4194304,
+      "length": 16384,
+      "entropy": 5.9483,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.162
+    },
+    {
+      "offset": "0x404000",
+      "offset_int": 4210688,
+      "length": 16384,
+      "entropy": 5.7451,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1912
+    },
+    {
+      "offset": "0x408000",
+      "offset_int": 4227072,
+      "length": 16384,
+      "entropy": 5.753,
+      "top_byte": "0x55",
+      "top_byte_ratio": 0.1909
+    },
+    {
+      "offset": "0x40c000",
+      "offset_int": 4243456,
+      "length": 16384,
+      "entropy": 5.0281,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3022
+    },
+    {
+      "offset": "0x410000",
+      "offset_int": 4259840,
+      "length": 16384,
+      "entropy": 4.9851,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3813
+    },
+    {
+      "offset": "0x414000",
+      "offset_int": 4276224,
+      "length": 16384,
+      "entropy": 5.2279,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3145
+    },
+    {
+      "offset": "0x418000",
+      "offset_int": 4292608,
+      "length": 16384,
+      "entropy": 4.1153,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4576
+    },
+    {
+      "offset": "0x41c000",
+      "offset_int": 4308992,
+      "length": 16384,
+      "entropy": 3.9901,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4775
+    },
+    {
+      "offset": "0x420000",
+      "offset_int": 4325376,
+      "length": 16384,
+      "entropy": 4.2958,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4304
+    },
+    {
+      "offset": "0x424000",
+      "offset_int": 4341760,
+      "length": 16384,
+      "entropy": 4.0787,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.472
+    },
+    {
+      "offset": "0x428000",
+      "offset_int": 4358144,
+      "length": 16384,
+      "entropy": 4.2325,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4466
+    },
+    {
+      "offset": "0x42c000",
+      "offset_int": 4374528,
+      "length": 16384,
+      "entropy": 3.9716,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4841
+    },
+    {
+      "offset": "0x430000",
+      "offset_int": 4390912,
+      "length": 16384,
+      "entropy": 4.0827,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4556
+    },
+    {
+      "offset": "0x434000",
+      "offset_int": 4407296,
+      "length": 16384,
+      "entropy": 5.451,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2463
+    },
+    {
+      "offset": "0x438000",
+      "offset_int": 4423680,
+      "length": 16384,
+      "entropy": 4.4366,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4359
+    },
+    {
+      "offset": "0x43c000",
+      "offset_int": 4440064,
+      "length": 16384,
+      "entropy": 4.1462,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4455
+    },
+    {
+      "offset": "0x440000",
+      "offset_int": 4456448,
+      "length": 16384,
+      "entropy": 4.6324,
+      "top_byte": "0x02",
+      "top_byte_ratio": 0.2048
+    },
+    {
+      "offset": "0x444000",
+      "offset_int": 4472832,
+      "length": 16384,
+      "entropy": 5.1707,
+      "top_byte": "0x03",
+      "top_byte_ratio": 0.1683
+    },
+    {
+      "offset": "0x448000",
+      "offset_int": 4489216,
+      "length": 16384,
+      "entropy": 5.5761,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2386
+    },
+    {
+      "offset": "0x44c000",
+      "offset_int": 4505600,
+      "length": 16384,
+      "entropy": 4.524,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4147
+    },
+    {
+      "offset": "0x450000",
+      "offset_int": 4521984,
+      "length": 16384,
+      "entropy": 4.3087,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4447
+    },
+    {
+      "offset": "0x454000",
+      "offset_int": 4538368,
+      "length": 16384,
+      "entropy": 4.6906,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3788
+    },
+    {
+      "offset": "0x458000",
+      "offset_int": 4554752,
+      "length": 16384,
+      "entropy": 4.4114,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4141
+    },
+    {
+      "offset": "0x45c000",
+      "offset_int": 4571136,
+      "length": 16384,
+      "entropy": 4.5949,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3837
+    },
+    {
+      "offset": "0x460000",
+      "offset_int": 4587520,
+      "length": 16384,
+      "entropy": 4.1543,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4693
+    },
+    {
+      "offset": "0x464000",
+      "offset_int": 4603904,
+      "length": 16384,
+      "entropy": 4.1019,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4601
+    },
+    {
+      "offset": "0x468000",
+      "offset_int": 4620288,
+      "length": 16384,
+      "entropy": 5.2661,
+      "top_byte": "0x09",
+      "top_byte_ratio": 0.1899
+    },
+    {
+      "offset": "0x46c000",
+      "offset_int": 4636672,
+      "length": 16384,
+      "entropy": 5.5125,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1302
+    },
+    {
+      "offset": "0x470000",
+      "offset_int": 4653056,
+      "length": 16384,
+      "entropy": 5.2329,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2715
+    },
+    {
+      "offset": "0x474000",
+      "offset_int": 4669440,
+      "length": 16384,
+      "entropy": 4.5209,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.3973
+    },
+    {
+      "offset": "0x478000",
+      "offset_int": 4685824,
+      "length": 16384,
+      "entropy": 4.1949,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4578
+    },
+    {
+      "offset": "0x47c000",
+      "offset_int": 4702208,
+      "length": 16384,
+      "entropy": 4.2085,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4387
+    },
+    {
+      "offset": "0x480000",
+      "offset_int": 4718592,
+      "length": 16384,
+      "entropy": 5.2182,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1722
+    },
+    {
+      "offset": "0x484000",
+      "offset_int": 4734976,
+      "length": 16384,
+      "entropy": 5.2878,
+      "top_byte": "0x0c",
+      "top_byte_ratio": 0.1713
+    },
+    {
+      "offset": "0x488000",
+      "offset_int": 4751360,
+      "length": 16384,
+      "entropy": 5.2028,
+      "top_byte": "0x0c",
+      "top_byte_ratio": 0.2251
+    },
+    {
+      "offset": "0x48c000",
+      "offset_int": 4767744,
+      "length": 16384,
+      "entropy": 5.1516,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2427
+    },
+    {
+      "offset": "0x490000",
+      "offset_int": 4784128,
+      "length": 16384,
+      "entropy": 4.3116,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4302
+    },
+    {
+      "offset": "0x494000",
+      "offset_int": 4800512,
+      "length": 16384,
+      "entropy": 4.0927,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4631
+    },
+    {
+      "offset": "0x498000",
+      "offset_int": 4816896,
+      "length": 16384,
+      "entropy": 4.2119,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4337
+    },
+    {
+      "offset": "0x49c000",
+      "offset_int": 4833280,
+      "length": 16384,
+      "entropy": 4.0262,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4752
+    },
+    {
+      "offset": "0x4a0000",
+      "offset_int": 4849664,
+      "length": 16384,
+      "entropy": 4.2355,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4456
+    },
+    {
+      "offset": "0x4a4000",
+      "offset_int": 4866048,
+      "length": 16384,
+      "entropy": 4.1287,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4681
+    },
+    {
+      "offset": "0x4a8000",
+      "offset_int": 4882432,
+      "length": 16384,
+      "entropy": 4.3097,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4324
+    },
+    {
+      "offset": "0x4ac000",
+      "offset_int": 4898816,
+      "length": 16384,
+      "entropy": 3.9758,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4706
+    },
+    {
+      "offset": "0x4b0000",
+      "offset_int": 4915200,
+      "length": 16384,
+      "entropy": 4.5816,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.4138
+    },
+    {
+      "offset": "0x4b4000",
+      "offset_int": 4931584,
+      "length": 16384,
+      "entropy": 5.4207,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1957
+    },
+    {
+      "offset": "0x4b8000",
+      "offset_int": 4947968,
+      "length": 16384,
+      "entropy": 5.6186,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1721
+    },
+    {
+      "offset": "0x4bc000",
+      "offset_int": 4964352,
+      "length": 16384,
+      "entropy": 5.2352,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.2494
+    },
+    {
+      "offset": "0x4c0000",
+      "offset_int": 4980736,
+      "length": 16384,
+      "entropy": 5.7194,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1789
+    },
+    {
+      "offset": "0x4c4000",
+      "offset_int": 4997120,
+      "length": 16384,
+      "entropy": 5.9401,
+      "top_byte": "0x00",
+      "top_byte_ratio": 0.1645
+    },
+    {
+      "offset": "0x4c8000",
+      "offset_int": 5013504,
+      "length": 16384,
+      "entropy": 2.4006,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.7126
+    },
+    {
+      "offset": "0x4cc000",
+      "offset_int": 5029888,
+      "length": 1058,
+      "entropy": 0.7461,
+      "top_byte": "0xff",
+      "top_byte_ratio": 0.9093
+    }
+  ]
+}

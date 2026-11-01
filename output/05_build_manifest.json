@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-30T10:25:10-0300",
+  "mode": "unpacked",
+  "input_source": "/Users/wesleysalmi/source-me/tz5-rea/output/TZ5_unpacked.bin",
+  "output_path": "output/TZ5_built.bin",
+  "unpacked_size": 4735008,
+  "unpacked_sha256": "39c3759ec4f7fda9906039a93fb2867442491320220647f651fd8f1491996860",
+  "unpacked_md5": "8cafd054f38bc21fd475592e184a749b",
+  "built_size": 5030946,
+  "built_records": 147969,
+  "built_sha256": "5f2e5ffd97d04722bee1eca61c363a87948d052747fde429806cb1105be28b96",
+  "built_md5": "a83c9d6392ee0a2b5310722cfa7eb1ec",
+  "verification": {
+    "total_records": 147969,
+    "valid_records": 147969,
+    "success_rate_percent": 100.0,
+    "failures_count": 0,
+    "sample_failures": []
+  },
+  "reference_comparison": {
+    "reference_path": "/Users/wesleysalmi/source-me/tz5-rea/TZ5_a.bin",
+    "bit_for_bit_match": true
+  },
+  "elapsed_seconds": 0.379
+}

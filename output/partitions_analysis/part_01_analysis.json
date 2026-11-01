@@ -1,0 +1,15 @@
+{
+  "partition_index": 1,
+  "id": "part_01_vectors_init",
+  "va_start": "0x55C80000",
+  "va_end": "0x55C809F2",
+  "base_size": 2546,
+  "extension_size": 0,
+  "free_cave_bytes": 13838,
+  "sha256": "93de706269e2dd0bb7d8272f76d83791013dab63e1f2a9b6a60d75778c2bcf77",
+  "rea_evidence_id": "ev_20a0133a9d605ff899bbf5c8f10a9173e701d5f47c5cbeebbc9c722701e0f62b",
+  "vector_slot_count": 10,
+  "kernel_data_ram_va": "0x54000400",
+  "kernel_data_size": 44,
+  "kernel_bss_range": "0x5400042C..0x540127E4"
+}

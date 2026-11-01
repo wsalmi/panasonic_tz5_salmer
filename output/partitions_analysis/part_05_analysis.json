@@ -1,0 +1,19 @@
+{
+  "partition_index": 5,
+  "id": "part_05_resource_tables",
+  "va_start": "0x55FF0000",
+  "va_end": "0x560FCF08",
+  "base_size": 1101576,
+  "extension_size": 0,
+  "free_cave_bytes": 12536,
+  "sha256": "f5588074d8a4d1f1f847714e21b4882dd4e50f8e9cff925be9699772d5106223",
+  "rea_evidence_id": "ev_c6e9740541df83835fc86bc158e5e961f3c212b783e6641ea74303c66b52bce9",
+  "master_table": {
+    "va": "0x56000000",
+    "magic": "0x12345678",
+    "total_word_entries": 82853,
+    "part03_pointers": 60504,
+    "part05_pointers": 17520,
+    "upper_osd_0003_strings": 8956
+  }
+}

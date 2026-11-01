@@ -1,0 +1,1519 @@
+{
+  "camera_model": "Panasonic Lumix DMC-TZ5",
+  "ui_partitions": {
+    "part_02_ui_engine_and_menus": "0x55C84000..0x55E9B428",
+    "part_03_glyphs_icons_and_shared_strings": "0x55EA0000..0x55F9B118",
+    "part_05_24_language_string_matrix": "0x55FF0000..0x560FCF08"
+  },
+  "language_count": 24,
+  "string_ids_per_language": 3251,
+  "glyph_and_icon_tile_count": 7518,
+  "menu_group_count": 29,
+  "total_menu_item_descriptors": 129,
+  "reversed_screen_count": 12,
+  "screens": [
+    {
+      "screen_id": "SCREEN_01_REC_LIVE_VIEW_OSD",
+      "title_en": "Recording Live View OSD & Telemetry Overlay",
+      "title_pt": "Tela Live View de Disparo (OSD + Telemetria \u00c3\u0093ptica 10x)",
+      "mode_badge": "REC / iA",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E67BAC",
+      "summary": "Renders real-time shooting HUD over the 3.0-inch 460k-dot LCD: Recording Mode badge (iA/P/SCN/Motion), Mega O.I.S. status, 9M EZ picture size, AF/AE lock, 1x-10x Leica DC Vario-Elmar zoom bar, live histogram (SID 0x0297), and battery gauge."
+    },
+    {
+      "screen_id": "SCREEN_02_Q_MENU_BAR",
+      "title_en": "Quick Menu (Q.MENU) Top Dropdown Bar",
+      "title_pt": "Barra R\u00c3\u00a1pida Q.MENU (Ajustes Instant\u00c3\u00a2neos em Live View)",
+      "mode_badge": "Q.MENU",
+      "primary_handler_va": "0x55D6AB3E",
+      "descriptor_table_va": "0x55E67CCC",
+      "summary": "Triggered by the dedicated Q.MENU / Delete button during shooting. Draws a horizontal quick-access bar at the top of the LCD with drop-down rollers for Stabilizer, Burst, AF Mode, White Balance, ISO, Intelligent Exposure, Picture Size, and LCD Mode."
+    },
+    {
+      "screen_id": "SCREEN_03_REC_MAIN_MENU",
+      "title_en": "[REC] Main Shooting Menu (Pages 1-4)",
+      "title_pt": "Menu Principal de Fotografia [REC] (P\u00c3\u00a1ginas 1 a 4)",
+      "mode_badge": "[REC]",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E67BAC",
+      "summary": "Full-screen tabbed menu driven by the 24-byte VenusMenuItemDescriptor tables at 0x55E67BAC..0x55E67E64 (22 items: Picture Size, Quality, Aspect Ratio, Intelligent ISO, Sensitivity, White Balance, WB Adjust, Metering Mode, AF Mode, Quick AF, Continuous AF, I.Exposure, Color Mode, Stabilizer, Min. Shtr Speed, Burst, Digital Zoom, Audio Rec., AF Assist Lamp, Clock Set)."
+    },
+    {
+      "screen_id": "SCREEN_04_MOTION_PICTURE_MENU",
+      "title_en": "[MOTION PICTURE] HD 720p Video Recording Menu",
+      "title_pt": "Menu de Grava\u00c3\u00a7\u00c3\u00a3o de V\u00c3\u00addeo HD [IMAGEM EM MOVIMENTO]",
+      "mode_badge": "[MOTION]",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E67E7C",
+      "summary": "Configures HD 1280x720 (30fps/15fps) 16:9 and WVGA/VGA Motion JPEG recording modes (SID 0x004B), Picture Quality/Frame Rate (30fps/15fps/10fps), Continuous AF, White Balance, Metering Mode, I.Exposure, Color Mode, and Optical Stabilizer."
+    },
+    {
+      "screen_id": "SCREEN_05_SCENE_MODE_GRID",
+      "title_en": "[SCN] 22-Scene Mode Selection Grid & Help Card",
+      "title_pt": "Grade de Sele\u00c3\u00a7\u00c3\u00a3o de 22 Modos de Cena [SCN] (Retrato, Paisagem, Noite, Beb\u00c3\u00aa, Subaqu\u00c3\u00a1tico...)",
+      "mode_badge": "[SCN]",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E67E7C",
+      "summary": "2-page icon grid presenting all 22 Venus Engine IV scene modes (Portrait, Soft Skin, Transform, Self-Portrait, Scenery, Sports, Night Portrait, Night Scenery, Food, Party, Candle Light, Baby 1/2, Pet, Sunset, High Sensitivity, Hi-Speed Burst, Starry Sky, Fireworks, Beach, Snow, Aerial Photo, Underwater) plus SID 0x0143..0x0190 help descriptions."
+    },
+    {
+      "screen_id": "SCREEN_06_SETUP_MENU",
+      "title_en": "[SETUP] System Configuration Menu (Pages 1-5 & Submenus)",
+      "title_pt": "Menu de Configura\u00c3\u00a7\u00c3\u00a3o do Sistema [CONFIG.] (P\u00c3\u00a1ginas 1 a 5 + 24 Idiomas)",
+      "mode_badge": "[SETUP]",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E69DC0",
+      "summary": "Driven by the 24-byte VenusMenuItemDescriptor tables at 0x55E69DC0..0x55E6A408 (Clock Set, World Time, Monitor, LCD Mode, Beep, Volume, Guide Line, Histogram, Travel Date, Economy, Auto Review, Zoom Resume, No.Reset, Reset, USB Mode, Video Out, TV Aspect, m/ft, Scene Menu, Dial Display, Format, Language, Demo Mode)."
+    },
+    {
+      "screen_id": "SCREEN_07_PLAY_MENU_AND_OSD",
+      "title_en": "[PLAY] Playback HUD, Calendar, Dual Display & Editing Menu",
+      "title_pt": "Modo de Reprodu\u00c3\u00a7\u00c3\u00a3o [PLAY] (Visualiza\u00c3\u00a7\u00c3\u00a3o, Calend\u00c3\u00a1rio, Exibi\u00c3\u00a7\u00c3\u00a3o Dupla e Edi\u00c3\u00a7\u00c3\u00a3o)",
+      "mode_badge": "[PLAY]",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E68B10",
+      "summary": "Driven by descriptor tables 0x55E68B10 (17 editing/playback items: Slide Show, Category Play, Favorite, Title Edit, Text Stamp, Resize, Trimming, Aspect Conv., Rotate, Rotate Disp., Audio Dub., Protect, DPOF Print, Copy) and 0x55E68CD8 (Play Mode selector: Normal Play, Slide Show, Category Play, Favorite Play, Dual Play)."
+    },
+    {
+      "screen_id": "SCREEN_08_CLIPBOARD_MENU",
+      "title_en": "[CLIPBOARD] Dedicated Internal Memory Clipboard Screen",
+      "title_pt": "Menu [CLIPBOARD] (Mapa/Hor\u00c3\u00a1rios Salvos na Mem\u00c3\u00b3ria Interna)",
+      "mode_badge": "[CLIPBOARD]",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E69448",
+      "summary": "Driven by descriptor table 0x55E69448 (Audio Dub., Copy, LCD Mode) and strings SID 0x0281..0x0287. Allows quick capture and zoom viewing of transit maps, timetables, and notes stored in internal flash."
+    },
+    {
+      "screen_id": "SCREEN_09_WORLD_TIME_MAP",
+      "title_en": "World Time Interactive 74-City Map Screen",
+      "title_pt": "Tela de Hora Mundial (Mapa-M\u00c3\u00bandi Interativo com 74 Cidades)",
+      "mode_badge": "WORLD TIME",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E69DF0",
+      "summary": "Renders the world timezone map with Home (SID 0x01D2) and Destination (SID 0x01D1) timezone bands, GMT offsets, Summer Time toggle, and the 74 proportional-font city names stored at SID 0x01D7..0x0220 (Lisbon, London, Paris, Rio de Janeiro, Fernando de Noronha, New York, Tokyo, etc.)."
+    },
+    {
+      "screen_id": "SCREEN_10_CLOCK_AND_TRAVEL_SET",
+      "title_en": "Clock Set & Travel Date / Baby Age Editor Screen",
+      "title_pt": "Tela de Ajuste de Rel\u00c3\u00b3gio, Data de Viagem e Nome/Idade",
+      "mode_badge": "CLOCK SET",
+      "primary_handler_va": "0x55D6BCE8",
+      "descriptor_table_va": "0x55E69DD8",
+      "summary": "Interactive date/time spinner and on-screen character keyboard used by CLOCK SET (SID 0x0112, 0x012F), TRAVEL DATE (SID 0x012E), and TITLE EDIT / BABY NAME (SID 0x028B)."
+    },
+    {
+      "screen_id": "SCREEN_11_SERVICE_CAMERA_INFO_ROM_BACKUP",
+      "title_en": "Factory Service Mode: CAMERA INFO. & ROM BACKUP Diagnostics",
+      "title_pt": "Modo de Servi\u00c3\u00a7o de F\u00c3\u00a1brica: CAMERA INFO., Hist\u00c3\u00b3rico de Erros e ROM BACKUP",
+      "mode_badge": "SERVICE MODE",
+      "primary_handler_va": "0x55D87488",
+      "descriptor_table_va": "0x55D9C0B8",
+      "summary": "Hidden factory diagnostic screens rendered by sub_55D87488 ('CAMERA INFO.' @ 0x55E6ECDC: VER 1.00, PWRCNT, SHTCNT, STBCNT, PSVCNT, ClockSet Cnt, UnderCut Cnt, CCD_TEMP) and sub_55D9C0B8 / SID 0x02DC..0x02EE ('SERVICE MODE', 'ROM BACKUP', 'SD -> FLASH (USER)', 'FLASH -> SD (ALL)', 'ERROR CODE CLEAR')."
+    },
+    {
+      "screen_id": "SCREEN_12_CUSTOM_MOD_UI_SCREEN",
+      "title_en": "Custom Injected Firmware UI Screen (TZ5 Studio Live Telemetry / Custom Menu)",
+      "title_pt": "Nova Tela UI Customizada Injetada no Firmware (TZ5 Studio Mod)",
+      "mode_badge": "[CUSTOM UI]",
+      "primary_handler_va": "0x55E9B430",
+      "descriptor_table_va": "0x55E69FD0",
+      "summary": "New custom screen compiled by VenusUiEngine::compile_and_inject_custom_ui_screen() into CAVE_MAIN_TEXT (0x55E9B428+ in part_02) with custom 0x0003-terminated 16-bit strings in part_03 (0x55F9B118+) and 24-language pointer binding in part_05 (0x56000000)."
+    }
+  ],
+  "menu_groups": [
+    {
+      "table_id": "MENU_REC_MAIN_P1",
+      "screen_category": "[REC] MENU",
+      "start_va": "0x55E67BAC",
+      "end_va": "0x55E67CB4",
+      "items": [
+        {
+          "va": "0x55E67BAC",
+          "item_id": 1,
+          "label_sid": "0x0036",
+          "icon_sid": "0x0919",
+          "label_en": "WHITE BALANCE",
+          "label_pt": "BAL. BRANCOS",
+          "sub_option_count": 5
+        },
+        {
+          "va": "0x55E67BC4",
+          "item_id": 5,
+          "label_sid": "0x0037",
+          "icon_sid": "0x08EE",
+          "label_en": "SENSITIVITY",
+          "label_pt": "SENSIBILIDADE",
+          "sub_option_count": 1
+        },
+        {
+          "va": "0x55E67BDC",
+          "item_id": 2,
+          "label_sid": "0x0038",
+          "icon_sid": "0x08E8",
+          "label_en": "PICTURE SIZE",
+          "label_pt": "TAMANHO",
+          "sub_option_count": 1
+        },
+        {
+          "va": "0x55E67BF4",
+          "item_id": 3,
+          "label_sid": "0x0039",
+          "icon_sid": "0x0904",
+          "label_en": "QUALITY",
+          "label_pt": "QUALIDADE",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67C0C",
+          "item_id": 23,
+          "label_sid": "0x003A",
+          "icon_sid": "0x08D2",
+          "label_en": "ASPECT RATIO",
+          "label_pt": "FORMATO",
+          "sub_option_count": 4
+        },
+        {
+          "va": "0x55E67C24",
+          "item_id": 6,
+          "label_sid": "0x003B",
+          "icon_sid": "0x09D1",
+          "label_en": "AUDIO REC.",
+          "label_pt": "GRAV [G:0261]UDIO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67C3C",
+          "item_id": 18,
+          "label_sid": "0x003C",
+          "icon_sid": "0x090E",
+          "label_en": "METERING MODE",
+          "label_pt": "MEDI[G:0267][G:0263]O",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E67C54",
+          "item_id": 19,
+          "label_sid": "0x003D",
+          "icon_sid": "0x08CE",
+          "label_en": "AF MODE",
+          "label_pt": "MODO AF",
+          "sub_option_count": 8
+        },
+        {
+          "va": "0x55E67C6C",
+          "item_id": 7,
+          "label_sid": "0x003E",
+          "icon_sid": "0x0A79",
+          "label_en": "CONTINUOUS AF",
+          "label_pt": "AF CONT[G:026E]NUO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67C84",
+          "item_id": 20,
+          "label_sid": "0x003F",
+          "icon_sid": "0x08CF",
+          "label_en": "AF ASSIST LAMP",
+          "label_pt": "LAMP AUX AF",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67C9C",
+          "item_id": 24,
+          "label_sid": "0x0046",
+          "icon_sid": "0x0335",
+          "label_en": "AF/AE LOCK",
+          "label_pt": "BLOQ AF/AE",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_REC_MAIN_P2",
+      "screen_category": "[REC] MENU",
+      "start_va": "0x55E67CCC",
+      "end_va": "0x55E67D44",
+      "items": [
+        {
+          "va": "0x55E67CCC",
+          "item_id": 9,
+          "label_sid": "0x0040",
+          "icon_sid": "0x08E0",
+          "label_en": "DIGITAL ZOOM",
+          "label_pt": "ZOOM DIGITAL",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67CE4",
+          "item_id": 10,
+          "label_sid": "0x0041",
+          "icon_sid": "0x08DC",
+          "label_en": "COLOR EFFECT",
+          "label_pt": "EFEITO CORES",
+          "sub_option_count": 5
+        },
+        {
+          "va": "0x55E67CFC",
+          "item_id": 11,
+          "label_sid": "0x022D",
+          "icon_sid": "0x08DC",
+          "label_en": "COLOR MODE",
+          "label_pt": "MODO[G:0118]DE[G:0118]CORES",
+          "sub_option_count": 7
+        },
+        {
+          "va": "0x55E67D14",
+          "item_id": 12,
+          "label_sid": "0x0043",
+          "icon_sid": "0x0910",
+          "label_en": "STABILIZER",
+          "label_pt": "ESTABILIZADOR",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67D2C",
+          "item_id": 13,
+          "label_sid": "0x004A",
+          "icon_sid": "0x08E1",
+          "label_en": "PICTURE MODE",
+          "label_pt": "IMAGEM",
+          "sub_option_count": 8
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_REC_SHUTTER",
+      "screen_category": "[REC] MENU",
+      "start_va": "0x55E67D8C",
+      "end_va": "0x55E67DA4",
+      "items": [
+        {
+          "va": "0x55E67D8C",
+          "item_id": 22,
+          "label_sid": "0x02C2",
+          "icon_sid": "0x0BA3",
+          "label_en": "MIN.[G:0118]SHTR[G:0118]SPEED",
+          "label_pt": "VEL OBT MIN",
+          "sub_option_count": 10
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_REC_MAIN_P3",
+      "screen_category": "[REC] MENU",
+      "start_va": "0x55E67DBC",
+      "end_va": "0x55E67E1C",
+      "items": [
+        {
+          "va": "0x55E67DBC",
+          "item_id": 28,
+          "label_sid": "0x002C",
+          "icon_sid": "0x0C06",
+          "label_en": "WB ADJUST.",
+          "label_pt": "AJ BAL BRANCO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E67DD4",
+          "item_id": 30,
+          "label_sid": "0x0112",
+          "icon_sid": "0x08DB",
+          "label_en": "CLOCK SET",
+          "label_pt": "AJ. REL[G:0273]GIO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E67DEC",
+          "item_id": 31,
+          "label_sid": "0x0023",
+          "icon_sid": "0x08EC",
+          "label_en": "INTELLIGENT[G:0118]ISO",
+          "label_pt": "ISO[G:0118]INTELIGENTE",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67E04",
+          "item_id": 16,
+          "label_sid": "0x022F",
+          "icon_sid": "0x0905",
+          "label_en": "BURST",
+          "label_pt": "EXPLOS[G:0263]O",
+          "sub_option_count": 3
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_REC_MAIN_P4",
+      "screen_category": "[REC] MENU",
+      "start_va": "0x55E67E34",
+      "end_va": "0x55E67E64",
+      "items": [
+        {
+          "va": "0x55E67E34",
+          "item_id": 204,
+          "label_sid": "0x0298",
+          "icon_sid": "0x0319",
+          "label_en": "QUICK AF",
+          "label_pt": "AF R[G:0261]PIDO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E67E4C",
+          "item_id": 33,
+          "label_sid": "0x02B8",
+          "icon_sid": "0x0AA6",
+          "label_en": "I.EXPOSURE",
+          "label_pt": "CONTRAST INT",
+          "sub_option_count": 2
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_MODE_ROOT",
+      "screen_category": "[MODE / SCN]",
+      "start_va": "0x55E67E7C",
+      "end_va": "0x55E67EF4",
+      "items": [
+        {
+          "va": "0x55E67E7C",
+          "item_id": 1,
+          "label_sid": "0x0024",
+          "icon_sid": "0x0BBE",
+          "label_en": "INTELLIGENT AUTO",
+          "label_pt": "AUTO INTELIGENTE",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E67E94",
+          "item_id": 0,
+          "label_sid": "0x0002",
+          "icon_sid": "0x0BBF",
+          "label_en": "NORMAL PICTURE",
+          "label_pt": "IMAGEM NORMAL",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E67EAC",
+          "item_id": 2,
+          "label_sid": "0x000B",
+          "icon_sid": "0x09F3",
+          "label_en": "MOTION PICTURE",
+          "label_pt": "V[G:026E]DEO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E67EC4",
+          "item_id": 3,
+          "label_sid": "0x024D",
+          "icon_sid": "0x0BC0",
+          "label_en": "SCENE MODE 1",
+          "label_pt": "CEN[G:0261]RIO 1",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E67EDC",
+          "item_id": 4,
+          "label_sid": "0x024E",
+          "icon_sid": "0x0BC1",
+          "label_en": "SCENE MODE 2",
+          "label_pt": "CEN[G:0261]RIO 2",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_PICT_ADJ",
+      "screen_category": "[REC] PICT.ADJ.",
+      "start_va": "0x55E6800C",
+      "end_va": "0x55E6806C",
+      "items": [
+        {
+          "va": "0x55E6800C",
+          "item_id": 0,
+          "label_sid": "0x004D",
+          "icon_sid": "0xFFFF",
+          "label_en": "CONTRAST",
+          "label_pt": "CONTRASTE",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68024",
+          "item_id": 1,
+          "label_sid": "0x004E",
+          "icon_sid": "0xFFFF",
+          "label_en": "SHARPNESS",
+          "label_pt": "NITIDEZ",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E6803C",
+          "item_id": 2,
+          "label_sid": "0x004F",
+          "icon_sid": "0xFFFF",
+          "label_en": "SATURATION",
+          "label_pt": "SATURA[G:0267][G:0263]O",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68054",
+          "item_id": 3,
+          "label_sid": "0x0050",
+          "icon_sid": "0xFFFF",
+          "label_en": "NOISE REDUCTION",
+          "label_pt": "REDU[G:0267][G:0263]O RU[G:026E]DO",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_BABY_PET",
+      "screen_category": "[SCN] BABY/PET",
+      "start_va": "0x55E6827C",
+      "end_va": "0x55E682AC",
+      "items": [
+        {
+          "va": "0x55E6827C",
+          "item_id": 0,
+          "label_sid": "0x022A",
+          "icon_sid": "0xFFFF",
+          "label_en": "AGE",
+          "label_pt": "IDADE",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E68294",
+          "item_id": 1,
+          "label_sid": "0x0293",
+          "icon_sid": "0xFFFF",
+          "label_en": "NAME",
+          "label_pt": "NOME",
+          "sub_option_count": 3
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_GROUP_08",
+      "screen_category": "[UI] SUBMENU",
+      "start_va": "0x55E68304",
+      "end_va": "0x55E6831C",
+      "items": [
+        {
+          "va": "0x55E68304",
+          "item_id": 1,
+          "label_sid": "0x0038",
+          "icon_sid": "0x08E8",
+          "label_en": "PICTURE SIZE",
+          "label_pt": "TAMANHO",
+          "sub_option_count": 1
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_GROUP_09",
+      "screen_category": "[UI] SUBMENU",
+      "start_va": "0x55E68334",
+      "end_va": "0x55E68364",
+      "items": [
+        {
+          "va": "0x55E68334",
+          "item_id": 5,
+          "label_sid": "0x0060",
+          "icon_sid": "0x035D",
+          "label_en": "LCD MODE",
+          "label_pt": "MODO LCD",
+          "sub_option_count": 5
+        },
+        {
+          "va": "0x55E6834C",
+          "item_id": 4,
+          "label_sid": "0x0112",
+          "icon_sid": "0x08DB",
+          "label_en": "CLOCK SET",
+          "label_pt": "AJ. REL[G:0273]GIO",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_PLAY_MAIN",
+      "screen_category": "[PLAY] MENU",
+      "start_va": "0x55E68B10",
+      "end_va": "0x55E68B40",
+      "items": [
+        {
+          "va": "0x55E68B10",
+          "item_id": 1,
+          "label_sid": "0x00B0",
+          "icon_sid": "0x0901",
+          "label_en": "PROTECT",
+          "label_pt": "PROTEGER",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E68B28",
+          "item_id": 2,
+          "label_sid": "0x00B1",
+          "icon_sid": "0x08E2",
+          "label_en": "DPOF PRINT",
+          "label_pt": "IMPRIME[G:0118]DPOF",
+          "sub_option_count": 3
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_GROUP_11",
+      "screen_category": "[UI] SUBMENU",
+      "start_va": "0x55E68B58",
+      "end_va": "0x55E68CA8",
+      "items": [
+        {
+          "va": "0x55E68B58",
+          "item_id": 4,
+          "label_sid": "0x00B3",
+          "icon_sid": "0x09D1",
+          "label_en": "AUDIO DUB.",
+          "label_pt": "[G:0261]UDIO DUB.",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68B70",
+          "item_id": 5,
+          "label_sid": "0x00B4",
+          "icon_sid": "0x0906",
+          "label_en": "RESIZE",
+          "label_pt": "REDIMEN.",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E68B88",
+          "item_id": 6,
+          "label_sid": "0x00B5",
+          "icon_sid": "0x0916",
+          "label_en": "TRIMMING",
+          "label_pt": "TRIMMING",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68BA0",
+          "item_id": 8,
+          "label_sid": "0x00B7",
+          "icon_sid": "0x0907",
+          "label_en": "ROTATE",
+          "label_pt": "RODAR",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68BB8",
+          "item_id": 9,
+          "label_sid": "0x00B8",
+          "icon_sid": "0x0908",
+          "label_en": "ROTATE DISP.",
+          "label_pt": "RODAR ECR[G:0263]",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E68BD0",
+          "item_id": 11,
+          "label_sid": "0x01A1",
+          "icon_sid": "0x08DD",
+          "label_en": "COPY",
+          "label_pt": "COPIAR",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E68BE8",
+          "item_id": 12,
+          "label_sid": "0x00E7",
+          "icon_sid": "0x08D2",
+          "label_en": "ASPECT[G:0118]CONV.",
+          "label_pt": "CONV FORM",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E68C00",
+          "item_id": 13,
+          "label_sid": "0x00B9",
+          "icon_sid": "0x08E5",
+          "label_en": "FAVORITE",
+          "label_pt": "FAVORITOS",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E68C18",
+          "item_id": 14,
+          "label_sid": "0x01BD",
+          "icon_sid": "0x0AFD",
+          "label_en": "DUAL[G:0118]DISPLAY",
+          "label_pt": "DISPLAY[G:0118]DUPL",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68C30",
+          "item_id": 10,
+          "label_sid": "0x028E",
+          "icon_sid": "0x08DE",
+          "label_en": "TEXT STAMP",
+          "label_pt": "IMP TEXTO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E68C48",
+          "item_id": 15,
+          "label_sid": "0x0256",
+          "icon_sid": "0x0AFA",
+          "label_en": "CATEGORY",
+          "label_pt": "CATEGORIA",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68C60",
+          "item_id": 16,
+          "label_sid": "0x028B",
+          "icon_sid": "0x08ED",
+          "label_en": "TITLE EDIT",
+          "label_pt": "EDIT T[G:026E]TULO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E68C78",
+          "item_id": 18,
+          "label_sid": "0x029E",
+          "icon_sid": "0x0BA7",
+          "label_en": "CALENDAR",
+          "label_pt": "CALEND[G:0261]RIO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68C90",
+          "item_id": 20,
+          "label_sid": "0x02C6",
+          "icon_sid": "0x0B8F",
+          "label_en": "MOTION EDIT",
+          "label_pt": "EDITAR V[G:026E]DEO",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_PLAY_MODE",
+      "screen_category": "[PLAY] MODE",
+      "start_va": "0x55E68CD8",
+      "end_va": "0x55E68D50",
+      "items": [
+        {
+          "va": "0x55E68CD8",
+          "item_id": 0,
+          "label_sid": "0x02B4",
+          "icon_sid": "0x08FE",
+          "label_en": "NORMAL PLAY",
+          "label_pt": "REP NORMAL",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68CF0",
+          "item_id": 1,
+          "label_sid": "0x00B2",
+          "icon_sid": "0x0B16",
+          "label_en": "SLIDE SHOW",
+          "label_pt": "SLIDES",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68D08",
+          "item_id": 4,
+          "label_sid": "0x02B7",
+          "icon_sid": "0x0AFA",
+          "label_en": "CATEGORY PLAY",
+          "label_pt": "REP CATEGORIA",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68D20",
+          "item_id": 2,
+          "label_sid": "0x029D",
+          "icon_sid": "0x08E5",
+          "label_en": "FAVORITE PLAY",
+          "label_pt": "REP PREF",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68D38",
+          "item_id": 5,
+          "label_sid": "0x01C3",
+          "icon_sid": "0x0AFD",
+          "label_en": "DUAL PLAY",
+          "label_pt": "REP DUAL",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SLIDESHOW_FILTER",
+      "screen_category": "[PLAY] SLIDE SHOW",
+      "start_va": "0x55E68D68",
+      "end_va": "0x55E68DC8",
+      "items": [
+        {
+          "va": "0x55E68D68",
+          "item_id": 1,
+          "label_sid": "0x00D6",
+          "icon_sid": "0xFFFF",
+          "label_en": "ALL",
+          "label_pt": "TUDO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68D80",
+          "item_id": 3,
+          "label_sid": "0x00B9",
+          "icon_sid": "0xFFFF",
+          "label_en": "FAVORITE",
+          "label_pt": "FAVORITOS",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68D98",
+          "item_id": 6,
+          "label_sid": "0x02BC",
+          "icon_sid": "0xFFFF",
+          "label_en": "CATEGORY SELECTION",
+          "label_pt": "ESCOLHER CATEGORIA",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68DB0",
+          "item_id": 5,
+          "label_sid": "0x02BE",
+          "icon_sid": "0xFFFF",
+          "label_en": "SAVED SLIDE SHOW",
+          "label_pt": "IMAGENS REG",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SLIDESHOW_CFG",
+      "screen_category": "[PLAY] SLIDE SHOW",
+      "start_va": "0x55E68EC0",
+      "end_va": "0x55E68F20",
+      "items": [
+        {
+          "va": "0x55E68EC0",
+          "item_id": 0,
+          "label_sid": "0x00D9",
+          "icon_sid": "0xFFFF",
+          "label_en": "DURATION",
+          "label_pt": "DURA[G:0267][G:0263]O",
+          "sub_option_count": 4
+        },
+        {
+          "va": "0x55E68ED8",
+          "item_id": 1,
+          "label_sid": "0x02B1",
+          "icon_sid": "0xFFFF",
+          "label_en": "REPEAT",
+          "label_pt": "REPETIR",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E68EF0",
+          "item_id": 2,
+          "label_sid": "0x00DA",
+          "icon_sid": "0xFFFF",
+          "label_en": "AUDIO",
+          "label_pt": "[G:0261]UDIO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E68F08",
+          "item_id": 3,
+          "label_sid": "0x02B2",
+          "icon_sid": "0xFFFF",
+          "label_en": "MUSIC",
+          "label_pt": "M[G:0278]SICA",
+          "sub_option_count": 2
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SLIDESHOW_START",
+      "screen_category": "[PLAY] SLIDE SHOW",
+      "start_va": "0x55E68FA8",
+      "end_va": "0x55E69008",
+      "items": [
+        {
+          "va": "0x55E68FA8",
+          "item_id": 1,
+          "label_sid": "0x00D8",
+          "icon_sid": "0xFFFF",
+          "label_en": "START",
+          "label_pt": "IN[G:026E]CIO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68FC0",
+          "item_id": 6,
+          "label_sid": "0x00DF",
+          "icon_sid": "0xFFFF",
+          "label_en": "EFFECT",
+          "label_pt": "EFEITO",
+          "sub_option_count": 6
+        },
+        {
+          "va": "0x55E68FD8",
+          "item_id": 8,
+          "label_sid": "0x02B0",
+          "icon_sid": "0xFFFF",
+          "label_en": "SETUP",
+          "label_pt": "CONFIGURAR",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E68FF0",
+          "item_id": 7,
+          "label_sid": "0x025F",
+          "icon_sid": "0xFFFF",
+          "label_en": "SLIDESHOW SETUP",
+          "label_pt": "NO DIAPOSITIVO",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_TEXT_STAMP",
+      "screen_category": "[PLAY] TEXT STAMP",
+      "start_va": "0x55E690F0",
+      "end_va": "0x55E69150",
+      "items": [
+        {
+          "va": "0x55E690F0",
+          "item_id": 0,
+          "label_sid": "0x0227",
+          "icon_sid": "0xFFFF",
+          "label_en": "SHOOTING DATE",
+          "label_pt": "GRAVAR DATA",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E69108",
+          "item_id": 1,
+          "label_sid": "0x022A",
+          "icon_sid": "0xFFFF",
+          "label_en": "AGE",
+          "label_pt": "IDADE",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69120",
+          "item_id": 2,
+          "label_sid": "0x012E",
+          "icon_sid": "0xFFFF",
+          "label_en": "TRAVEL DATE",
+          "label_pt": "DATA VIAGEM",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69138",
+          "item_id": 3,
+          "label_sid": "0x028A",
+          "icon_sid": "0xFFFF",
+          "label_en": "TITLE",
+          "label_pt": "T[G:026E]TULO",
+          "sub_option_count": 2
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_PICTBRIDGE_PRINT",
+      "screen_category": "[USB] PICTBRIDGE",
+      "start_va": "0x55E692F8",
+      "end_va": "0x55E69388",
+      "items": [
+        {
+          "va": "0x55E692F8",
+          "item_id": 0,
+          "label_sid": "0x00F9",
+          "icon_sid": "0xFFFF",
+          "label_en": "PRINT START",
+          "label_pt": "A IMPRIMIR",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69310",
+          "item_id": 1,
+          "label_sid": "0x00FA",
+          "icon_sid": "0xFFFF",
+          "label_en": "PRINT WITH DATE",
+          "label_pt": "IMPRIMIR C/ DATA",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69328",
+          "item_id": 2,
+          "label_sid": "0x00FB",
+          "icon_sid": "0xFFFF",
+          "label_en": "NUM.OF PRINTS",
+          "label_pt": "N.[G:02CF] IMPRESS[G:0275]ES",
+          "sub_option_count": 1
+        },
+        {
+          "va": "0x55E69340",
+          "item_id": 3,
+          "label_sid": "0x00FC",
+          "icon_sid": "0xFFFF",
+          "label_en": "PAPER SIZE",
+          "label_pt": "TAMANHO PAPEL",
+          "sub_option_count": 12
+        },
+        {
+          "va": "0x55E69358",
+          "item_id": 4,
+          "label_sid": "0x00FD",
+          "icon_sid": "0xFFFF",
+          "label_en": "PAGE LAYOUT",
+          "label_pt": "FORMATO DA P[G:0261]G",
+          "sub_option_count": 5
+        },
+        {
+          "va": "0x55E69370",
+          "item_id": 5,
+          "label_sid": "0x00DB",
+          "icon_sid": "0xFFFF",
+          "label_en": "DPOF SET",
+          "label_pt": "IMPRIME[G:0118]DPOF",
+          "sub_option_count": 3
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_MULTI_SELECT",
+      "screen_category": "[PLAY] MULTI SELECT",
+      "start_va": "0x55E693A0",
+      "end_va": "0x55E69418",
+      "items": [
+        {
+          "va": "0x55E693A0",
+          "item_id": 2,
+          "label_sid": "0x01B2",
+          "icon_sid": "0xFFFF",
+          "label_en": "MULTI SELECT",
+          "label_pt": "SELEC[G:0267][G:0263]O M[G:0278]LTIP",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E693B8",
+          "item_id": 3,
+          "label_sid": "0x01B3",
+          "icon_sid": "0xFFFF",
+          "label_en": "SELECT ALL",
+          "label_pt": "SELECCION TODAS",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E693D0",
+          "item_id": 4,
+          "label_sid": "0x00B9",
+          "icon_sid": "0xFFFF",
+          "label_en": "FAVORITE",
+          "label_pt": "FAVORITOS",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E693E8",
+          "item_id": 1,
+          "label_sid": "0x00ED",
+          "icon_sid": "0xFFFF",
+          "label_en": "DPOF PICTURE",
+          "label_pt": "FOTO DPOF",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69400",
+          "item_id": 5,
+          "label_sid": "0x0296",
+          "icon_sid": "0xFFFF",
+          "label_en": "CATEGORY REGIST",
+          "label_pt": "CATEGORY REGIST",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_CLIPBOARD",
+      "screen_category": "[CLIPBOARD] MENU",
+      "start_va": "0x55E69448",
+      "end_va": "0x55E69490",
+      "items": [
+        {
+          "va": "0x55E69448",
+          "item_id": 2,
+          "label_sid": "0x00B3",
+          "icon_sid": "0x09D1",
+          "label_en": "AUDIO DUB.",
+          "label_pt": "[G:0261]UDIO DUB.",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69460",
+          "item_id": 3,
+          "label_sid": "0x01A1",
+          "icon_sid": "0x08DD",
+          "label_en": "COPY",
+          "label_pt": "COPIAR",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69478",
+          "item_id": 5,
+          "label_sid": "0x0060",
+          "icon_sid": "0x035D",
+          "label_en": "LCD MODE",
+          "label_pt": "MODO LCD",
+          "sub_option_count": 5
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_MAIN",
+      "screen_category": "[SETUP] MENU",
+      "start_va": "0x55E69DC0",
+      "end_va": "0x55E69FE8",
+      "items": [
+        {
+          "va": "0x55E69DC0",
+          "item_id": 20,
+          "label_sid": "0x0126",
+          "icon_sid": "0x08D5",
+          "label_en": "BATTERY TYPE",
+          "label_pt": "TIPO BATERIA",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69DD8",
+          "item_id": 13,
+          "label_sid": "0x0112",
+          "icon_sid": "0x08DB",
+          "label_en": "CLOCK SET",
+          "label_pt": "AJ. REL[G:0273]GIO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69DF0",
+          "item_id": 24,
+          "label_sid": "0x01D0",
+          "icon_sid": "0x0914",
+          "label_en": "WORLD TIME",
+          "label_pt": "FUSO HOR[G:0261]RIO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69E08",
+          "item_id": 1,
+          "label_sid": "0x0107",
+          "icon_sid": "0x0A73",
+          "label_en": "MONITOR",
+          "label_pt": "MONITOR",
+          "sub_option_count": 7
+        },
+        {
+          "va": "0x55E69E20",
+          "item_id": 17,
+          "label_sid": "0x0108",
+          "icon_sid": "0x0A73",
+          "label_en": "VIEWFINDER",
+          "label_pt": "VISOR",
+          "sub_option_count": 7
+        },
+        {
+          "va": "0x55E69E38",
+          "item_id": 31,
+          "label_sid": "0x0060",
+          "icon_sid": "0x035D",
+          "label_en": "LCD MODE",
+          "label_pt": "MODO LCD",
+          "sub_option_count": 5
+        },
+        {
+          "va": "0x55E69E50",
+          "item_id": 4,
+          "label_sid": "0x010C",
+          "icon_sid": "0x08D6",
+          "label_en": "BEEP",
+          "label_pt": "SOM",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E69E68",
+          "item_id": 8,
+          "label_sid": "0x0111",
+          "icon_sid": "0x0A93",
+          "label_en": "VOLUME",
+          "label_pt": "VOLUME",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69E80",
+          "item_id": 27,
+          "label_sid": "0x012B",
+          "icon_sid": "0x08E9",
+          "label_en": "GUIDE LINE",
+          "label_pt": "GUIA DE ALINH",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69E98",
+          "item_id": 32,
+          "label_sid": "0x0297",
+          "icon_sid": "0x08B8",
+          "label_en": "HISTOGRAM",
+          "label_pt": "HISTOGRAMA",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69EB0",
+          "item_id": 23,
+          "label_sid": "0x012E",
+          "icon_sid": "0x0979",
+          "label_en": "TRAVEL DATE",
+          "label_pt": "DATA VIAGEM",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69EC8",
+          "item_id": 2,
+          "label_sid": "0x0109",
+          "icon_sid": "0x08D4",
+          "label_en": "AUTO REVIEW",
+          "label_pt": "REV AUTOM.",
+          "sub_option_count": 6
+        },
+        {
+          "va": "0x55E69EE0",
+          "item_id": 6,
+          "label_sid": "0x011A",
+          "icon_sid": "0x0321",
+          "label_en": "ECONOMY",
+          "label_pt": "ECON[G:0273]MICO",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69EF8",
+          "item_id": 9,
+          "label_sid": "0x0113",
+          "icon_sid": "0x08F9",
+          "label_en": "NO.RESET",
+          "label_pt": "REINICIAR N[G:02CF]",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69F10",
+          "item_id": 10,
+          "label_sid": "0x0114",
+          "icon_sid": "0x090B",
+          "label_en": "RESET",
+          "label_pt": "REINICIAR",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69F28",
+          "item_id": 12,
+          "label_sid": "0x0115",
+          "icon_sid": "0x0B1C",
+          "label_en": "USB MODE",
+          "label_pt": "MODO USB",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E69F40",
+          "item_id": 11,
+          "label_sid": "0x0117",
+          "icon_sid": "0x0918",
+          "label_en": "VIDEO OUT",
+          "label_pt": "SA[G:026E]DA V[G:026E]DEO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69F58",
+          "item_id": 21,
+          "label_sid": "0x0193",
+          "icon_sid": "0x0917",
+          "label_en": "TV ASPECT",
+          "label_pt": "FORMATO TV",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69F70",
+          "item_id": 22,
+          "label_sid": "0x011D",
+          "icon_sid": "0x0334",
+          "label_en": "m/ft",
+          "label_pt": "m/ft",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69F88",
+          "item_id": 18,
+          "label_sid": "0x011B",
+          "icon_sid": "0x0B0E",
+          "label_en": "SCENE MENU",
+          "label_pt": "MEN[G:0278] CEN[G:0261]RIO",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E69FA0",
+          "item_id": 33,
+          "label_sid": "0x00B6",
+          "icon_sid": "0x08E6",
+          "label_en": "FORMAT",
+          "label_pt": "FORMATAR",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E69FB8",
+          "item_id": 14,
+          "label_sid": "0x0118",
+          "icon_sid": "0x08F1",
+          "label_en": "LANGUAGE",
+          "label_pt": "L[G:026E]NGUA",
+          "sub_option_count": 21
+        },
+        {
+          "va": "0x55E69FD0",
+          "item_id": 34,
+          "label_sid": "0x029F",
+          "icon_sid": "0x0A74",
+          "label_en": "DEMO MODE",
+          "label_pt": "MODO DEMO",
+          "sub_option_count": 0
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_PWR_SHUTTER",
+      "screen_category": "[SETUP] SUBMENU",
+      "start_va": "0x55E6A000",
+      "end_va": "0x55E6A030",
+      "items": [
+        {
+          "va": "0x55E6A000",
+          "item_id": 5,
+          "label_sid": "0x010B",
+          "icon_sid": "0x0902",
+          "label_en": "POWER SAVE",
+          "label_pt": "POUP ENERGIA",
+          "sub_option_count": 5
+        },
+        {
+          "va": "0x55E6A018",
+          "item_id": 7,
+          "label_sid": "0x010D",
+          "icon_sid": "0x090C",
+          "label_en": "SHUTTER",
+          "label_pt": "OBTURADOR",
+          "sub_option_count": 3
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_ZOOM_DIAL",
+      "screen_category": "[SETUP] SUBMENU",
+      "start_va": "0x55E6A090",
+      "end_va": "0x55E6A0C0",
+      "items": [
+        {
+          "va": "0x55E6A090",
+          "item_id": 28,
+          "label_sid": "0x0225",
+          "icon_sid": "0x0C07",
+          "label_en": "ZOOM RESUME",
+          "label_pt": "CONT ZOOM",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E6A0A8",
+          "item_id": 29,
+          "label_sid": "0x0125",
+          "icon_sid": "0x0BA6",
+          "label_en": "DIAL DISPLAY",
+          "label_pt": "MODO ECR[G:0263]",
+          "sub_option_count": 2
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_DEFAULT_GUARD",
+      "screen_category": "[SETUP] SUBMENU",
+      "start_va": "0x55E6A0F0",
+      "end_va": "0x55E6A120",
+      "items": [
+        {
+          "va": "0x55E6A0F0",
+          "item_id": 35,
+          "label_sid": "0x02C0",
+          "icon_sid": "0x0AA7",
+          "label_en": "DEFAULT ZOOM",
+          "label_pt": "DEFAULT ZOOM",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E6A108",
+          "item_id": 36,
+          "label_sid": "0x02C1",
+          "icon_sid": "0x0AA8",
+          "label_en": "SCREEN GUARD",
+          "label_pt": "BARRAS CINZA",
+          "sub_option_count": 2
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_GUIDELINE",
+      "screen_category": "[SETUP] GUIDE LINE",
+      "start_va": "0x55E6A198",
+      "end_va": "0x55E6A1C8",
+      "items": [
+        {
+          "va": "0x55E6A198",
+          "item_id": 0,
+          "label_sid": "0x012C",
+          "icon_sid": "0xFFFF",
+          "label_en": "REC. INFO.",
+          "label_pt": "INF GRAVA[G:0267][G:0263]O",
+          "sub_option_count": 2
+        },
+        {
+          "va": "0x55E6A1B0",
+          "item_id": 2,
+          "label_sid": "0x012D",
+          "icon_sid": "0xFFFF",
+          "label_en": "PATTERN",
+          "label_pt": "PADR[G:0263]O",
+          "sub_option_count": 2
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_BEEP",
+      "screen_category": "[SETUP] BEEP",
+      "start_va": "0x55E6A260",
+      "end_va": "0x55E6A2C0",
+      "items": [
+        {
+          "va": "0x55E6A260",
+          "item_id": 0,
+          "label_sid": "0x010E",
+          "icon_sid": "0x08D6",
+          "label_en": "BEEP LEVEL",
+          "label_pt": "VOLUME",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E6A278",
+          "item_id": 1,
+          "label_sid": "0x010F",
+          "icon_sid": "0x08D7",
+          "label_en": "BEEP TONE",
+          "label_pt": "TOM DO SOM",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E6A290",
+          "item_id": 3,
+          "label_sid": "0x011F",
+          "icon_sid": "0x090C",
+          "label_en": "SHUTTER VOL.",
+          "label_pt": "VOL OBTURADOR",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E6A2A8",
+          "item_id": 2,
+          "label_sid": "0x0110",
+          "icon_sid": "0x090D",
+          "label_en": "SHUTTER TONE",
+          "label_pt": "TOM OBTURADOR",
+          "sub_option_count": 3
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_SHUTTER_AUDIO",
+      "screen_category": "[SETUP] SHUTTER",
+      "start_va": "0x55E6A2D8",
+      "end_va": "0x55E6A308",
+      "items": [
+        {
+          "va": "0x55E6A2D8",
+          "item_id": 3,
+          "label_sid": "0x011F",
+          "icon_sid": "0x090C",
+          "label_en": "SHUTTER VOL.",
+          "label_pt": "VOL OBTURADOR",
+          "sub_option_count": 3
+        },
+        {
+          "va": "0x55E6A2F0",
+          "item_id": 2,
+          "label_sid": "0x0110",
+          "icon_sid": "0x090D",
+          "label_en": "SHUTTER TONE",
+          "label_pt": "TOM OBTURADOR",
+          "sub_option_count": 3
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_ECONOMY",
+      "screen_category": "[SETUP] ECONOMY",
+      "start_va": "0x55E6A390",
+      "end_va": "0x55E6A3C0",
+      "items": [
+        {
+          "va": "0x55E6A390",
+          "item_id": 0,
+          "label_sid": "0x010B",
+          "icon_sid": "0x0902",
+          "label_en": "POWER SAVE",
+          "label_pt": "POUP ENERGIA",
+          "sub_option_count": 5
+        },
+        {
+          "va": "0x55E6A3A8",
+          "item_id": 1,
+          "label_sid": "0x02B3",
+          "icon_sid": "0x034F",
+          "label_en": "AUTO LCD OFF",
+          "label_pt": "LCD AUTO DES",
+          "sub_option_count": 2
+        }
+      ]
+    },
+    {
+      "table_id": "MENU_SETUP_DEMO",
+      "screen_category": "[SETUP] DEMO MODE",
+      "start_va": "0x55E6A3D8",
+      "end_va": "0x55E6A408",
+      "items": [
+        {
+          "va": "0x55E6A3D8",
+          "item_id": 0,
+          "label_sid": "0x0236",
+          "icon_sid": "0xFFFF",
+          "label_en": "JITTER, SUBJ. MOVE DEMO.",
+          "label_pt": "INST, DEM DO MOV DO OBJ",
+          "sub_option_count": 0
+        },
+        {
+          "va": "0x55E6A3F0",
+          "item_id": 1,
+          "label_sid": "0x02A0",
+          "icon_sid": "0xFFFF",
+          "label_en": "AUTO DEMO",
+          "label_pt": "DEMO AUTO",
+          "sub_option_count": 0
+        }
+      ]
+    }
+  ]
+}

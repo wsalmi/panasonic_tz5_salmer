@@ -1,0 +1,10 @@
+{
+  "partition_index": 4,
+  "id": "part_04_flash_stub",
+  "va_start": "0x55FE7800",
+  "va_end": "0x55FE7804",
+  "size": 4,
+  "free_cave_bytes": 34812,
+  "sha256": "b420830d2ab6f7f080c7d72bbddc9990b4a535825dbd6a8ddfdd4c633367caa6",
+  "rea_evidence_id": "ev_836778a76859ffc891e135718b7208f9dd4cd15fcf0fc421181b9d659620de2c"
+}

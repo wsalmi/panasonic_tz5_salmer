@@ -1,0 +1,13 @@
+{
+  "partition_index": 3,
+  "id": "part_03_osd_ui",
+  "va_start": "0x55EA0000",
+  "va_end": "0x55F9B118",
+  "base_size": 1028376,
+  "extension_size": 0,
+  "free_cave_bytes": 313064,
+  "sha256": "c29d3592b4d8cec99506d632ddba741a6dc9a857bf78057fb21cec1d52cbe0a4",
+  "rea_evidence_id": "ev_bfea28937a85208940f8156388aee0b05e10d32ea20643ace8882213e9615172",
+  "osd_0003_string_count": 82,
+  "utf16_0000_string_count": 32
+}

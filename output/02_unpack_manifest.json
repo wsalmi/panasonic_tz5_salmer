@@ -1,0 +1,92 @@
+{
+  "source_file": "/Users/wesleysalmi/source-me/tz5-rea/TZ5_a.bin",
+  "source_size": 5030946,
+  "source_sha256": "5f2e5ffd97d04722bee1eca61c363a87948d052747fde429806cb1105be28b96",
+  "record_size": 34,
+  "payload_bytes_per_record": 32,
+  "checksum_bytes_per_record": 2,
+  "total_records": 147969,
+  "checksum_algorithm": "Even/odd byte two's-complement sum: chk[0] = (-sum(payload[0::2])) & 0xFF, chk[1] = (-sum(payload[1::2])) & 0xFF",
+  "checksum_matches": {
+    "neg_sum_u16_le_stored_le": 6792,
+    "neg_sum_u16_le_stored_be": 21847,
+    "neg_sum_u16_be_stored_be": 147969,
+    "neg_sum_u16_be_stored_le": 7606,
+    "independent_byte_neg_sum": 16235
+  },
+  "unpacked_file": "/Users/wesleysalmi/source-me/tz5-rea/output/TZ5_unpacked.bin",
+  "unpacked_size": 4735008,
+  "unpacked_sha256": "39c3759ec4f7fda9906039a93fb2867442491320220647f651fd8f1491996860",
+  "partitions": [
+    {
+      "index": 0,
+      "unpacked_start": "0x000000",
+      "unpacked_end": "0x001305",
+      "unpacked_size": 4869,
+      "raw_start_approx": "0x000000",
+      "raw_end_approx": "0x001435",
+      "sha256": "746164f8860bd48371116385a2884276d49bd88bb95db7c57bda84f8a721427d",
+      "path": "/Users/wesleysalmi/source-me/tz5-rea/output/partitions/part_00_0x000000_0x001305.bin"
+    },
+    {
+      "index": 1,
+      "unpacked_start": "0x004000",
+      "unpacked_end": "0x0049f2",
+      "unpacked_size": 2546,
+      "raw_start_approx": "0x004400",
+      "raw_end_approx": "0x004e90",
+      "sha256": "93de706269e2dd0bb7d8272f76d83791013dab63e1f2a9b6a60d75778c2bcf77",
+      "path": "/Users/wesleysalmi/source-me/tz5-rea/output/partitions/part_01_0x004000_0x0049f2.bin"
+    },
+    {
+      "index": 2,
+      "unpacked_start": "0x008000",
+      "unpacked_end": "0x21f428",
+      "unpacked_size": 2192424,
+      "raw_start_approx": "0x008800",
+      "raw_end_approx": "0x24136a",
+      "sha256": "c0717019149caa0c155e3edb7eb05a88b933cd9c22fbc9352d16308bd0cf42f8",
+      "path": "/Users/wesleysalmi/source-me/tz5-rea/output/partitions/part_02_0x008000_0x21f428.bin"
+    },
+    {
+      "index": 3,
+      "unpacked_start": "0x224000",
+      "unpacked_end": "0x31f118",
+      "unpacked_size": 1028376,
+      "raw_start_approx": "0x246400",
+      "raw_end_approx": "0x351028",
+      "sha256": "c29d3592b4d8cec99506d632ddba741a6dc9a857bf78057fb21cec1d52cbe0a4",
+      "path": "/Users/wesleysalmi/source-me/tz5-rea/output/partitions/part_03_0x224000_0x31f118.bin"
+    },
+    {
+      "index": 4,
+      "unpacked_start": "0x36b800",
+      "unpacked_end": "0x36b804",
+      "unpacked_size": 4,
+      "raw_start_approx": "0x3a2380",
+      "raw_end_approx": "0x3a2384",
+      "sha256": "b420830d2ab6f7f080c7d72bbddc9990b4a535825dbd6a8ddfdd4c633367caa6",
+      "path": "/Users/wesleysalmi/source-me/tz5-rea/output/partitions/part_04_0x36b800_0x36b804.bin"
+    },
+    {
+      "index": 5,
+      "unpacked_start": "0x374000",
+      "unpacked_end": "0x480f08",
+      "unpacked_size": 1101576,
+      "raw_start_approx": "0x3ab400",
+      "raw_end_approx": "0x4c8ff8",
+      "sha256": "f5588074d8a4d1f1f847714e21b4882dd4e50f8e9cff925be9699772d5106223",
+      "path": "/Users/wesleysalmi/source-me/tz5-rea/output/partitions/part_05_0x374000_0x480f08.bin"
+    },
+    {
+      "index": 6,
+      "unpacked_start": "0x484000",
+      "unpacked_end": "0x484020",
+      "unpacked_size": 32,
+      "raw_start_approx": "0x4cc400",
+      "raw_end_approx": "0x4cc422",
+      "sha256": "b7b25a6e3e917f7a5b37043ca2752c4787064160aed9cc6f7565dfd878116f16",
+      "path": "/Users/wesleysalmi/source-me/tz5-rea/output/partitions/part_06_0x484000_0x484020.bin"
+    }
+  ]
+}

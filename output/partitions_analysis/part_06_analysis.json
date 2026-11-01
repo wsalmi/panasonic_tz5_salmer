@@ -1,0 +1,10 @@
+{
+  "partition_index": 6,
+  "id": "part_06_parity_trailer",
+  "va_start": "0x56100000",
+  "va_end": "0x56100020",
+  "size": 32,
+  "sha256": "b7b25a6e3e917f7a5b37043ca2752c4787064160aed9cc6f7565dfd878116f16",
+  "rea_evidence_id": "ev_0b97032c09f8891c07077289b35967440a949db77f9f74b22c8dcfb89c5d9b8b",
+  "corner_checksum_word": "0x39F6"
+}

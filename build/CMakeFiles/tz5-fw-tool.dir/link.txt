@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/tz5-fw-tool.dir/src/main.cpp.o" -o tz5-fw-tool  libtz5_core.a

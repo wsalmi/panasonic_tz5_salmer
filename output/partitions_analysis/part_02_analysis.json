@@ -1,0 +1,25 @@
+{
+  "partition_index": 2,
+  "id": "part_02_main_firmware",
+  "va_start": "0x55C84000",
+  "va_end": "0x55E9B428",
+  "base_size": 2192424,
+  "extension_size": 0,
+  "free_cave_bytes": 19416,
+  "sha256": "c0717019149caa0c155e3edb7eb05a88b933cd9c22fbc9352d16308bd0cf42f8",
+  "rea_evidence_id": "ev_1bbdae1883713739fda02e5fce3ed5c88cd001e93530af6a9dd9d1c04eedab68",
+  "pana_header": {
+    "magic": "Pana",
+    "version": "1.02",
+    "manufacturer": "Panasonic",
+    "model_name": "DMC-TZ5",
+    "brand_family": "LUMIX"
+  },
+  "data_segment": {
+    "rom_va": "0x55C90000..0x55C9B02C",
+    "sdram_va": "0x54012840..0x5401D86C",
+    "size_bytes": 45100,
+    "rom_pointers": 357,
+    "ram_pointers": 412
+  }
+}

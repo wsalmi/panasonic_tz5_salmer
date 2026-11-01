@@ -1,0 +1,51 @@
+{
+  "name": "TZ5 Custom Telemetry & Service Banner Feature Mod",
+  "version": "1.99",
+  "symbols": [
+    {
+      "name": "sdram_telemetry_counter",
+      "va": "0x54077200"
+    }
+  ],
+  "cave_strings": [
+    {
+      "name": "str_custom_cam_info",
+      "encoding": "ascii",
+      "cave": "CAVE_MAIN_TEXT",
+      "text": "TZ5 CUSTOM FW v1.99 [MOD]"
+    },
+    {
+      "name": "osd_custom_badge",
+      "encoding": "osd16",
+      "cave": "CAVE_MAIN_TEXT",
+      "text": "LUMIX-PRO-MOD"
+    }
+  ],
+  "call_hooks": [
+    {
+      "call_va": "0x55D8749D",
+      "save_orig_as": "orig_ui_draw_ascii_label",
+      "target": "hook_camera_info_banner"
+    }
+  ],
+  "cave_functions": [
+    {
+      "name": "hook_camera_info_banner",
+      "cave": "CAVE_MAIN_TEXT",
+      "asm": [
+        "mov (@sdram_telemetry_counter), d2 ; Load custom invocation counter from SDRAM",
+        "add 1, d2                          ; Increment telemetry counter",
+        "mov d2, (@sdram_telemetry_counter) ; Store updated counter back to SDRAM",
+        "mov @str_custom_cam_info, a0       ; Override CAMERA INFO. pointer in a0 with new cave string",
+        "jmp @orig_ui_draw_ascii_label      ; Tail-jump to original UI label renderer (0x55D6BA71)"
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "va": "0x55EA055E",
+      "kind": "osd16",
+      "value": "TZ5-MOD!"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+/Users/wesleysalmi/source-me/tz5-rea/build/CMakeFiles/tz5_core.dir
+/Users/wesleysalmi/source-me/tz5-rea/build/CMakeFiles/tz5-fw-tool.dir
+/Users/wesleysalmi/source-me/tz5-rea/build/CMakeFiles/edit_cache.dir
+/Users/wesleysalmi/source-me/tz5-rea/build/CMakeFiles/rebuild_cache.dir
